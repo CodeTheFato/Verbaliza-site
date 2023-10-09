@@ -1,117 +1,80 @@
 /* eslint-disable prettier/prettier */
 'use client'
 import Image from 'next/image'
-import { useState } from 'react'
+import Navbar from './components/Navbar'
 
 export default function Home() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false) // Crie um estado para controlar a abertura do menu responsivo
-
-  // Função para alternar o estado do menu
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
   return (
     <>
-      <nav className="fixed left-0 top-0 z-20 w-full border-b border-gray-200 bg-white dark:border-gray-600 dark:bg-gray-900">
-        <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
+      <Navbar />
+      <section id="home">
+        <div className="wrapper">
+          <div className="col-a">
+            <header>
+              <h4>SEJA BEM-VINDO AO VerbalixaCX 👋</h4>
+              <h1>O sistema para escutar e entender seus clientes</h1>
+            </header>
 
-          <a href="https://flowbite.com/" className="flex items-center">
-            <Image
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="mr-3 h-8"
-              alt="Flowbite Logo"
-              width={40}
-              height={40}
-            />
-            <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-              Flowbite
-            </span>
-          </a>
-          <div className="flex flex-wrap">
-            <button
-              type="button"
-              className="block rounded-lg bg-blue-700 px-4 py-2 text-end text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:hidden"
-            >
-              Get started
-            </button>
-            <button
-              data-collapse-toggle="navbar-sticky"
-              type="button"
-              className="ml-2 inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
-              aria-controls="navbar-sticky"
-              aria-expanded={isMenuOpen}
-              onClick={toggleMenu}
-            >
-              <span className="sr-only">Open main menu</span>
-              <svg
-                className="h-5 w-5"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 17 14"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M1 1h15M1 7h15M1 13h15"
-                />
-              </svg>
-            </button>
+            <div className="content">
+              <p>
+                VerbalizaCX permite escutar e entender seus clientes por meio de vídeos, fotos, áudios  e textos
+              </p>
+
+              {/* <a className="button" href="#contact">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.8337 11.6667C13.667 11.5833 12.5837 11.0833 12.417 11C12.2503 10.9167 12.0837 10.9167 11.917 11.0833C11.7503 11.25 11.417 11.75 11.2503 11.9167C11.167 12.0833 11.0003 12.0833 10.8337 12C10.2503 11.75 9.66699 11.4167 9.16699 11C8.75033 10.5833 8.33366 10.0833 8.00033 9.58334C7.91699 9.41668 8.00033 9.25001 8.08366 9.16668C8.16699 9.08334 8.25033 8.91668 8.41699 8.83334C8.50033 8.75001 8.58366 8.58334 8.58366 8.50001C8.66699 8.41668 8.66699 8.25001 8.58366 8.16668C8.50033 8.08334 8.08366 7.08334 7.91699 6.66668C7.83366 6.08334 7.66699 6.08334 7.50033 6.08334C7.41699 6.08334 7.25033 6.08334 7.08366 6.08334C6.91699 6.08334 6.66699 6.25001 6.58366 6.33334C6.08366 6.83334 5.83366 7.41668 5.83366 8.08334C5.91699 8.83334 6.16699 9.58334 6.66699 10.25C7.58366 11.5833 8.75033 12.6667 10.167 13.3333C10.5837 13.5 10.917 13.6667 11.3337 13.75C11.7503 13.9167 12.167 13.9167 12.667 13.8333C13.2503 13.75 13.7503 13.3333 14.0837 12.8333C14.2503 12.5 14.2503 12.1667 14.167 11.8333C14.167 11.8333 14.0003 11.75 13.8337 11.6667ZM15.917 4.08334C12.667 0.833344 7.41699 0.833344 4.16699 4.08334C1.50033 6.75001 1.00033 10.8333 2.83366 14.0833L1.66699 18.3333L6.08366 17.1667C7.33366 17.8333 8.66699 18.1667 10.0003 18.1667C14.5837 18.1667 18.2503 14.5 18.2503 9.91668C18.3337 7.75001 17.417 5.66668 15.917 4.08334ZM13.667 15.75C12.5837 16.4167 11.3337 16.8333 10.0003 16.8333C8.75033 16.8333 7.58366 16.5 6.50033 15.9167L6.25033 15.75L3.66699 16.4167L4.33366 13.9167L4.16699 13.6667C2.16699 10.3333 3.16699 6.16668 6.41699 4.08334C9.66699 2.00001 13.8337 3.08334 15.8337 6.25001C17.8337 9.50001 16.917 13.75 13.667 15.75Z"
+                    fill="white"
+                  />
+                </svg>
+
+                Agende sua consulta
+              </a> */}
+            </div>
           </div>
 
-          <div
-            className={`${isMenuOpen ? 'block' : 'hidden'
-              } w-full items-start justify-between md:order-1 md:flex md:w-auto`}
-            id="navbar-sticky"
-          >
-            <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-100 p-4 font-medium dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 max-w-[1000px] md:dark:bg-gray-900">
-              <li >
-                <a
-                  href="#"
-                  className="block rounded bg-blue-700 py-2 pl-3 pr-4 text-gray-900 md:bg-transparent md:p-0 md:text-blue-700 md:dark:text-blue-500"
-                  aria-current="page"
-                >
-                  O Sistema
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
-                >
-                  Encante seus clientes
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="ml-10 block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
-                >
-                  Saiba mais
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
-                >
-                  Verbalize Conosco
-                </a>
-              </li>
-              <li>
-                <button
-                  type="button"
-                  className="mr-3 rounded-lg bg-blue-700 px-4 py-2 text-end text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:mr-0"
-                >
-                  Entrar
-                </button>
-              </li>
-            </ul>
+          <div className="col-b">
+            <Image width={420} height={547} src="/smartphone.png" alt="Mulher sorrindo" />
           </div>
+
+          <div className="stats">
+            <div className="stat">
+              <h3>+3.500</h3>
+              <p>Pacientes atendidos</p>
+            </div>
+            <div className="stat">
+              <h3>+15</h3>
+              <p>Especialistas disponíveis</p>
+            </div>
+            <div className="stat">
+              <h3>+10</h3>
+              <p>Anos no mercado</p>
+            </div>
+          </div>
+
+          <div className="stats">
+            <div className="stat">
+              <h3>+3.500</h3>
+              <p>Pacientes atendidos</p>
+            </div>
+            <div className="stat">
+              <h3>+15</h3>
+              <p>Especialistas disponíveis</p>
+            </div>
+            <div className="stat">
+              <h3>+10</h3>
+              <p>Anos no mercado</p>
+            </div>
+          </div>
+
         </div>
-      </nav>
+      </section>
     </>
   )
 }
