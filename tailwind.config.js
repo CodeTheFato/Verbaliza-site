@@ -5,5 +5,11 @@ module.exports = {
     './public/**/*.html',
   ],
   plugins: [require('flowbite/plugin')],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        mono: ['var(--font-nunito)'],
+      },
+    },
+  },
 }
