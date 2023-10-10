@@ -1,0 +1,48 @@
+/* ============================ SERVICES ============================ */
+
+#services header h2 {
+  margin-bottom: 2rem;
+}
+.flow-details div h6 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--brand-black-300);
+  }
+
+@media (min-width: 1024px) {
+    #services h2 {
+    width: 50rem;
+    margin-inline: auto;
+  }
+  .flow-image{
+    margin-inline: auto;
+    margin-top: 10rem;
+  }
+  .flow-description{
+    margin-inline: auto;
+    max-width: 81.2rem;
+  }
+  .flow-details{
+    margin-left:8rem;
+    display:flex;
+    gap: 5rem;
+  }
+
+  .flow-details div h6 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--brand-black-300);
+  }
+
+  .flow-details div p {
+    max-width:23.9rem;
+    font-weight: regular;
+    font-size: 1.2rem;
+    color: var(--brand-black-300);
+  }
+  .flow-image{
+    margin-inline: auto;
+    display:flex;
+    justify-content: center;
+  }
+ }
