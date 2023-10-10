@@ -15,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={nunito.className}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <script src="/main.js" async />
+      </body>
     </html>
   )
 }
