@@ -138,21 +138,21 @@ export default function Navbar() {
             >
               <path
                 d="M10 20H30"
-                stroke="#00856F"
+                stroke="#FFF"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M10 12H30"
-                stroke="#00856F"
+                stroke="#FFF"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
               <path
                 d="M18 28L30 28"
-                stroke="#00856F"
+                stroke="#FFF"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"

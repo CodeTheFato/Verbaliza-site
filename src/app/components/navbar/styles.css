@@ -19,7 +19,7 @@ nav .wrapper {
 }
 
 nav.scroll {
-  background: var(--primary-color);
+  background: white;
 }
 
 nav button {
@@ -195,7 +195,7 @@ body.menu-expanded button path {
   }
 
   nav#navigation.scroll .menu ul li a {
-    color: var(--brand-light-2);
+    color: #333333;
     opacity: 0.6;
   }
 
@@ -230,7 +230,7 @@ body.menu-expanded button path {
   }
 
   nav#navigation.scroll .menu li a::after {
-    background-color: white;
+    background-color: #B5433A;
   }
 
   nav#navigation .menu li a.active::after,
