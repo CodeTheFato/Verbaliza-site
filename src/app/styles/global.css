@@ -110,14 +110,34 @@ img {
   fill: var(--brand-light);
 }
 
-#navigation .logo path[fill*='#00856F'],
+/* #navigation .logo path[fill*='#00856F'],
 #backToTopButton circle {
   fill: var(--primary-color);
+} */
+
+#navigation .logo path:nth-child(10),
+#navigation .logo path:nth-child(11){
+  fill: #333333;
+}
+
+#navigation.scroll .logo path:nth-child(10),
+#navigation.scroll .logo path:nth-child(11){
+  fill: #333333;
+}
+
+body.menu-expanded #navigation .logo path:nth-child(10),
+body.menu-expanded #navigation .logo path:nth-child(11){
+  fill: #333333;
 }
 
 body.menu-expanded #navigation .logo path,
 #navigation.scroll .logo path {
   fill: #B5433A;
+}
+
+body.menu-expanded #navigation .logo path,
+.logo path {
+  fill: white;
 }
 
 button.open-menu path[stroke*='#00856F'],
