@@ -1,3 +1,17 @@
+/* eslint-disable prettier/prettier */
+'use client'
+import Navbar from './components/navbar/Navbar'
+import HomePage from './components/home/HomePage'
+import { SectionHome } from './components/sectionHome/SectionHome'
+import { SectionFlow } from './components/sectionFlow/SectionFlow'
+
 export default function Home() {
-  return <div>Verbaliza-site Page</div>
+  return (
+    <>
+      <Navbar />
+      <HomePage />
+      <SectionHome />
+      <SectionFlow />
+    </>
+  )
 }
