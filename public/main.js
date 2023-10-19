@@ -5,50 +5,50 @@ onScroll()
 function onScroll() {
   showNavOnScroll()
   // showBackToTopButtonOnScroll()
-  activeMenuAtCurrentSection('home')
-  activeMenuAtCurrentSection('services')
-  activeMenuAtCurrentSection('about')
-  activeMenuAtCurrentSection('contact')
+  // activeMenuAtCurrentSection('home')
+  // activeMenuAtCurrentSection('services')
+  // activeMenuAtCurrentSection('about')
+  // activeMenuAtCurrentSection('contact')
 }
 
-function activeMenuAtCurrentSection(section) {
-  // linha alvo
-  const targetLine = scrollY + innerHeight / 2
+// function activeMenuAtCurrentSection(section) {
+//   // linha alvo
+//   const targetLine = scrollY + innerHeight / 2
 
-  // verificar se a seção passou da linha
-  // quais dados vou precisar?
+//   // verificar se a seção passou da linha
+//   // quais dados vou precisar?
 
-  // o topo da seção
-  const sectionTop = section.offsetTop
+//   // o topo da seção
+//   const sectionTop = section.offsetTop
 
-  // a altura da seção
-  const sectionHeight = section.offsetHeight
+//   // a altura da seção
+//   const sectionHeight = section.offsetHeight
 
-  // o topo da seção chegou ou ultrapassou a linha alvo
-  const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
+//   // o topo da seção chegou ou ultrapassou a linha alvo
+//   const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
 
-  // verificar se a base está abaixo da linha alvo
-  // quais dados vou precisar?
+//   // verificar se a base está abaixo da linha alvo
+//   // quais dados vou precisar?
 
-  // a seção termina onde?
-  const sectionEndsAt = sectionTop + sectionHeight
+//   // a seção termina onde?
+//   const sectionEndsAt = sectionTop + sectionHeight
 
-  // o final da seção passou da linha alvo
-  const sectionEndPassedTargetLine = sectionEndsAt <= targetLine
+//   // o final da seção passou da linha alvo
+//   const sectionEndPassedTargetLine = sectionEndsAt <= targetLine
 
-  // limites da seção
-  const sectionBoundaries =
-    sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
+//   // limites da seção
+//   const sectionBoundaries =
+//     sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
 
-  const sectionId = section.getAttribute('id')
-  const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
+//   const sectionId = section.getAttribute('id')
+//   const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
 
-  menuElement.classList.remove('active')
+//   menuElement.classList.remove('active')
 
-  if (sectionBoundaries) {
-    menuElement.classList.add('active')
-  }
-}
+//   if (sectionBoundaries) {
+//     menuElement.classList.add('active')
+//   }
+// }
 
 function showNavOnScroll() {
   if (scrollY > 0) {
