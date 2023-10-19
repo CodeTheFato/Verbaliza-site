@@ -13,7 +13,7 @@
   --hue: 190;
   /* --hue: 290; */
 
-  --primary-color: hsl(var(--hue), 100%, 26%);
+  --primary-color: #88322B;
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
   --brand-gray: #F6F6F6;
@@ -92,35 +92,6 @@ section .content p {
   line-height: 150%;
 
   color: var(--paragraph);
-}
-
-.button {
-  background-color: var(--primary-color);
-
-  border: none;
-  border-radius: 4rem;
-
-  margin-bottom: 6rem;
-
-  padding: 1.6rem 3.2rem;
-  width: fit-content;
-
-  color: #fff;
-  font-size: 1.4rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-
-  transition: background 0.2s;
-}
-
-.button:hover {
-  background-color: var(--brand-dark);
 }
 
 .social-links {
