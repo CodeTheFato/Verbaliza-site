@@ -23,9 +23,9 @@
     max-width: 81.2rem;
   }
   .flow-details{
-    margin-left:8rem;
+    margin-left:6rem;
     display:flex;
-    gap: 5rem;
+    gap: 6rem;
   }
 
   .flow-details div h6 {
