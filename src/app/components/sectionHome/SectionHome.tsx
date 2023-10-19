@@ -14,7 +14,10 @@ export function SectionHome() {
           </header>
 
           <div className="content">
-            <p>Médias e grandes também são bem-vindas.</p>
+            <p>
+              Médias e grandes também
+              <br /> são bem-vindas.
+            </p>
           </div>
         </div>
 
@@ -22,7 +25,7 @@ export function SectionHome() {
           <Image
             width={414}
             height={480}
-            src="/happy-doctor-holding-a-clipboard-with-patients.png"
+            src="/assets/business.png"
             alt="Doutor feliz segurando prancheta com pacientes"
           />
         </div>
