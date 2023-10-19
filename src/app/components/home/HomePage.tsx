@@ -39,7 +39,7 @@ export default function HomePage() {
           </div>
 
           <div className="col-b">
-            <Image width={420} height={547} src="/assets/smartphone.png" alt="Aplicativo Verbaliza" />
+            <Image width={244} height={493} src="/assets/phone.png" alt="Aplicativo Verbaliza" />
           </div>
 
           {/* <div className="stats">
