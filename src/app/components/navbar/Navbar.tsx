@@ -41,11 +41,24 @@ export default function Navbar() {
               </li>
               <li><a onClick={closeMenu} href="#services">Encante seus clientes</a></li>
               <li><a onClick={closeMenu} href="#about">Saiba mais</a></li>
-              <button onClick={closeMenu}>Verbalize conosco</button>
+              <div className='flex-row'>
+                <button onClick={closeMenu}>Verbalize conosco
+                </button>
+                <svg className='hidden md:block' width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.41 0L0 1.41L4.58 6L0 10.59L1.41 12L7.41 6L1.41 0Z" fill="white" />
+                </svg>
+              </div>
             </ul>
-            <a onClick={closeMenu} className="button" href="#contact"
-            >Entrar</a>
+            <div className='flex-row'>
+              <button onClick={closeMenu} className="button"
+              >
+                <a href="#contact">Entrar</a>
+                <svg className='hidden md:block' width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.41 0L0 1.41L4.58 6L0 10.59L1.41 12L7.41 6L1.41 0Z" fill="black" />
+                </svg>
+              </button>
 
+            </div>
             <ul className="social-links">
               <li>
                 <a target="_blank" href="#">
