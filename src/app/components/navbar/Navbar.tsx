@@ -5,7 +5,7 @@ import './styles.css'
 export default function Navbar() {
   function closeMenu() {
     document.body.classList.remove('menu-expanded')
-    window.location.href = "https://verbaliza-app-dev.vercel.app/admin/signin"
+    window.open("https://verbaliza-app-dev.vercel.app/admin/signin", "_blank")
   }
   function openMenu() {
     document.body.classList.add('menu-expanded')
