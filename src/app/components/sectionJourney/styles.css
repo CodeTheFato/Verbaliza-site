@@ -1,0 +1,57 @@
+ /* ============================ SERVICES ============================ */
+ .carousel.carousel-slider .control-arrow:hover {
+    background: none;
+}
+
+ .carousel .control-prev.control-arrow:before {
+  border-right: 8px solid var(--primary-color);
+}
+ .carousel .control-next.control-arrow:before {
+    border-left: 8px solid var(--primary-color);
+}
+
+ #journey {
+  text-align: center;
+  background-color: var(--brand-gray);
+}
+
+#journey header h2 {
+  margin-bottom: 2.4rem;
+  color:var(--primary-color);
+}
+
+#journey .content p {
+  margin-top: 2.4rem;
+  margin-bottom: 6rem;
+}
+
+  @media (min-width: 1024px) {
+    #journey {
+  text-align: left;
+  background-color: var(--brand-gray);
+}
+    #journey .wrapper {
+    grid-template-columns: 48rem 1fr;
+    grid-template-areas: 'A B';
+    gap: 6.7rem;
+  }
+
+  #journey .wrapper:nth-child(2) {
+    grid-template-columns: 48rem 1fr;
+    grid-template-areas: 'B A';
+    gap: 6.7rem;
+  }
+
+  #journey .col-a {
+    align-self: center;
+  }
+
+  #journey .col-c {
+    align-self: center;
+  }
+
+  #journey .content p {
+    margin: 0;
+  }
+
+  }

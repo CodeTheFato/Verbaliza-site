@@ -2,7 +2,8 @@
 'use client'
 import Image from 'next/image'
 import './styles.css'
-
+import { Carousel } from 'react-responsive-carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css"
 export default function HomePage() {
   return (
     <>
@@ -38,9 +39,75 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="col-b">
+          {/* <div
+            id="default-carousel"
+            className="relative w-full"
+            data-carousel="slide"
+          >
+            <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                <Image
+                  className="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  width={919} height={1416}
+                  src="/assets/phone-verbaliza.png"
+                  alt="Doutor feliz segurando prancheta com pacientes"
+                />
+              </div>
+              <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                <Image
+                  className="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  width={919} height={1416}
+                  src="/assets/phone-verbaliza.png"
+                  alt="Doutor feliz segurando prancheta com pacientes"
+                />
+              </div>
+              <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                <Image
+                  className="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  width={919} height={1416}
+                  src="/assets/phone-verbaliza.png"
+                  alt="Doutor feliz segurando prancheta com pacientes"
+                />
+              </div>
+              <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                <Image
+                  className="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  width={919} height={1416}
+                  src="/assets/phone-verbaliza.png"
+                  alt="Doutor feliz segurando prancheta com pacientes"
+                />
+              </div>
+              <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                <Image
+                  className="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
+                  width={919} height={1416}
+                  src="/assets/phone-verbaliza.png"
+                  alt="Doutor feliz segurando prancheta com pacientes"
+                />
+              </div>
+            </div>
+          </div> */}
+          <Carousel interval={3000} swipeable={true} emulateTouch={true} infiniteLoop={true} autoPlay showThumbs={false} showArrows={false} showIndicators={false} showStatus={false}>
+            <div>
+              <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
+            </div>
+            <div>
+              <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
+            </div>
+            <div>
+              <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
+            </div>
+            <div>
+              <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
+            </div>
+            <div>
+              <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
+            </div>
+          </Carousel>
+
+          {/* <div className="col-b">
             <Image width={919} height={1416} src="/assets/phone-verbaliza.png" alt="Aplicativo Verbaliza" />
-          </div>
+          </div> */}
 
           {/* <div className="stats">
             <div className="stat">
