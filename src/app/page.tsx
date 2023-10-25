@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import HomePage from './components/home/HomePage'
 import { SectionHome } from './components/sectionHome/SectionHome'
 import { SectionFlow } from './components/sectionFlow/SectionFlow'
+import { SectionJourney } from './components/sectionJourney/SectionJourney'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <HomePage />
       <SectionHome />
       <SectionFlow />
+      <SectionJourney />
     </>
   )
 }
