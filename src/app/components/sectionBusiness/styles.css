@@ -1,0 +1,52 @@
+/* ============================ SERVICES ============================ */
+
+#business header h2 {
+  margin-bottom: 1.5rem;
+}
+
+#business .cards {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+#business .card {
+  padding: 2.4rem;
+  text-align: left;
+  border: 1px solid var(--brand-light);
+  border-radius: 0.6rem;
+  background-color: white;
+}
+
+#business .card h3 {
+  margin-block: 1.6rem;
+  font-weight: bold;
+  color: var(--brand-black-300);
+
+}
+
+#business .card circle {
+  fill: var(--brand-light);
+}
+
+@media (min-width: 1024px) {
+ /* ============================ SERVICES ============================ */
+ #business h2 {
+    width: 47rem;
+    margin-inline: auto;
+    color: var(--title-h2);
+  }
+
+  #business .cards {
+    margin-top: 6rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  #business .card {
+    width: 30%;
+    flex-grow: 1;
+  }
+}

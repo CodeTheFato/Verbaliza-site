@@ -2,6 +2,7 @@
 
 #services header h2 {
   margin-bottom: 2rem;
+  color: var(--title-h2);
 }
 .flow-details div h6 {
     font-weight: bold;
@@ -11,6 +12,7 @@
 
 @media (min-width: 1024px) {
     #services h2 {
+    color: var(--title-h2);
     width: 50rem;
     margin-inline: auto;
   }
