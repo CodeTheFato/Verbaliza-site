@@ -51,13 +51,13 @@ function onScroll() {
 //   }
 // }
 
-// function showNavOnScroll() {
-//   if (scrollY > 0) {
-//     document.getElementById('navigation').classList.add('scroll')
-//   } else {
-//     document.getElementById('navigation').classList.remove('scroll')
-//   }
-// }
+function showNavOnScroll() {
+  if (scrollY > 0) {
+    document.getElementById('navigation').classList.add('scroll')
+  } else {
+    document.getElementById('navigation').classList.remove('scroll')
+  }
+}
 
 // function showBackToTopButtonOnScroll() {
 //   if (scrollY > 400) {
