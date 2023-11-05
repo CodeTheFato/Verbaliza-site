@@ -1,6 +1,6 @@
-/* ============================ SERVICES ============================ */
+/* ============================ flow ============================ */
 
-#services header h2 {
+#flow header h2 {
   margin-bottom: 2rem;
   color: var(--title-h2);
 }
@@ -11,7 +11,7 @@
   }
 
 @media (min-width: 1024px) {
-    #services h2 {
+    #flow h2 {
     color: var(--title-h2);
     width: 50rem;
     margin-inline: auto;
