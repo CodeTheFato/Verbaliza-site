@@ -6,6 +6,8 @@ import { SectionHome } from './components/sectionHome/SectionHome'
 import { SectionFlow } from './components/sectionFlow/SectionFlow'
 import { SectionJourney } from './components/sectionJourney/SectionJourney'
 import { SectionBusiness } from './components/sectionBusiness/SectionBusiness'
+import { SectionQuestion } from './components/sectionQuestion/SectionQuestion'
+import { SectionFooter } from './components/sectionFooter/SectionFooter'
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <SectionFlow />
       <SectionJourney />
       <SectionBusiness />
+      <SectionQuestion />
+      <SectionFooter />
     </>
   )
 }
