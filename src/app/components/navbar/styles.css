@@ -175,7 +175,7 @@ body.menu-expanded button path {
     opacity: 0.7;
   }
 
-  nav#navigation .menu ul button {
+  nav#navigation .menu ul button a {
    color: white;
    opacity: 0.7;
    margin-left: 15rem;
@@ -205,7 +205,7 @@ body.menu-expanded button path {
     border: none;
   }
 
-  nav#navigation.scroll .menu ul button,
+  nav#navigation.scroll .menu ul button a,
   nav#navigation.scroll .menu ul li a {
     color: #333333;
     opacity: 0.6;
