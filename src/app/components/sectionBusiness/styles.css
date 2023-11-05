@@ -1,5 +1,3 @@
-/* ============================ SERVICES ============================ */
-
 #business header h2 {
   margin-bottom: 1.5rem;
 }
@@ -31,7 +29,6 @@
 }
 
 @media (min-width: 1024px) {
- /* ============================ SERVICES ============================ */
  #business h2 {
     width: 47rem;
     margin-inline: auto;
