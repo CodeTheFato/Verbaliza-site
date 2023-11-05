@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 window.addEventListener('scroll', onScroll)
 
 onScroll()
@@ -5,10 +6,9 @@ onScroll()
 function onScroll() {
   showNavOnScroll()
   // showBackToTopButtonOnScroll()
-  // activeMenuAtCurrentSection('home')
-  // activeMenuAtCurrentSection('services')
-  // activeMenuAtCurrentSection('about')
-  // activeMenuAtCurrentSection('contact')
+  // activeMenuAtCurrentSection(home)
+  // activeMenuAtCurrentSection(about)
+  // activeMenuAtCurrentSection(flow)
 }
 
 // function activeMenuAtCurrentSection(section) {
@@ -41,6 +41,7 @@ function onScroll() {
 //     sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
 
 //   const sectionId = section.getAttribute('id')
+//   console.log('sectionId', sectionId)
 //   const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
 
 //   menuElement.classList.remove('active')
@@ -50,13 +51,13 @@ function onScroll() {
 //   }
 // }
 
-function showNavOnScroll() {
-  if (scrollY > 0) {
-    document.getElementById('navigation').classList.add('scroll')
-  } else {
-    document.getElementById('navigation').classList.remove('scroll')
-  }
-}
+// function showNavOnScroll() {
+//   if (scrollY > 0) {
+//     document.getElementById('navigation').classList.add('scroll')
+//   } else {
+//     document.getElementById('navigation').classList.remove('scroll')
+//   }
+// }
 
 // function showBackToTopButtonOnScroll() {
 //   if (scrollY > 400) {
