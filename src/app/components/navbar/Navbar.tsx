@@ -5,10 +5,14 @@ import './styles.css'
 export default function Navbar() {
   function closeMenu() {
     document.body.classList.remove('menu-expanded')
-    window.open("https://verbaliza-app-dev.vercel.app/admin/signin", "_blank")
   }
   function openMenu() {
     document.body.classList.add('menu-expanded')
+  }
+
+  function login() {
+    window.open("https://verbaliza-app-dev.vercel.app/admin/signin", "_blank")
+    closeMenu()
   }
   return (
     <>
@@ -37,20 +41,24 @@ export default function Navbar() {
           <div className="menu">
             <ul>
               <li>
-                <a className="active" onClick={closeMenu} href="#home">O Sistema</a>
+                <a className="active" onClick={closeMenu} href="#flow">O Sistema</a>
               </li>
-              <li><a onClick={closeMenu} href="#services">Encante seus clientes</a></li>
-              <li><a onClick={closeMenu} href="#about">Saiba mais</a></li>
+              <li><a onClick={closeMenu} href="#client">Encante seus clientes</a></li>
+              <li><a onClick={closeMenu} href="#questions">Saiba mais</a></li>
               <div className='flex-row'>
-                <button onClick={closeMenu}>Verbalize conosco
+                <button>
+                  <a onClick={closeMenu} href="https://wa.me/5511984971182"
+                    target="_blank" rel="noreferrer">Verbalize conosco
+                  </a>
                 </button>
+
                 <svg className='hidden md:block' width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.41 0L0 1.41L4.58 6L0 10.59L1.41 12L7.41 6L1.41 0Z" fill="white" />
                 </svg>
               </div>
             </ul>
             <div className='flex-row'>
-              <button onClick={closeMenu} className="button"
+              <button onClick={login} className="button"
               >
                 <a>Entrar</a>
                 <svg className='hidden md:block' width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
