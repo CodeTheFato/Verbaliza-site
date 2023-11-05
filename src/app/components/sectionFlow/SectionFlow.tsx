@@ -2,7 +2,7 @@ import './styles.css'
 import Image from 'next/image'
 export function SectionFlow() {
   return (
-    <section id="services">
+    <section id="flow">
       <div className="wrapper">
         <header>
           <h2>Pesquisas descomplicadas</h2>
