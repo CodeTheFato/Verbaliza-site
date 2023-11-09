@@ -1,55 +1,71 @@
 /* eslint-disable no-undef */
 window.addEventListener('scroll', onScroll)
 
+const flow = document.getElementById('flow')
+const journey = document.getElementById('journey')
+// const business = document.getElementById('business')
+const client = document.getElementById('client')
+const questions = document.getElementById('questions')
+
 onScroll()
 
 function onScroll() {
   showNavOnScroll()
   // showBackToTopButtonOnScroll()
-  // activeMenuAtCurrentSection(home)
-  // activeMenuAtCurrentSection(about)
-  // activeMenuAtCurrentSection(flow)
+  activeMenuAtCurrentSection(flow)
+  activeMenuAtCurrentSection(journey)
+  // activeMenuAtCurrentSection(business)
+  activeMenuAtCurrentSection(client)
+  activeMenuAtCurrentSection(questions)
 }
 
-// function activeMenuAtCurrentSection(section) {
-//   // linha alvo
-//   const targetLine = scrollY + innerHeight / 2
+function activeMenuAtCurrentSection(section) {
+  // linha alvo
+  const targetLine = scrollY + innerHeight / 2
 
-//   // verificar se a seção passou da linha
-//   // quais dados vou precisar?
+  // verificar se a seção passou da linha
+  // quais dados vou precisar?
 
-//   // o topo da seção
-//   const sectionTop = section.offsetTop
+  // o topo da seção
+  let sectionTop
+  if (section.getAttribute('id') === 'journey') {
+    sectionTop = flow.offsetTop // Use o offsetTop da primeira seção como referência
+  } else {
+    sectionTop = section.offsetTop
+  }
 
-//   // a altura da seção
-//   const sectionHeight = section.offsetHeight
+  // a altura da seção
+  const sectionHeight = section.offsetHeight
 
-//   // o topo da seção chegou ou ultrapassou a linha alvo
-//   const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
+  // o topo da seção chegou ou ultrapassou a linha alvo
+  const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
 
-//   // verificar se a base está abaixo da linha alvo
-//   // quais dados vou precisar?
+  // verificar se a base está abaixo da linha alvo
+  // quais dados vou precisar?
 
-//   // a seção termina onde?
-//   const sectionEndsAt = sectionTop + sectionHeight
+  // a seção termina onde?
+  const sectionEndsAt = sectionTop + sectionHeight
 
-//   // o final da seção passou da linha alvo
-//   const sectionEndPassedTargetLine = sectionEndsAt <= targetLine
+  // o final da seção passou da linha alvo
+  const sectionEndPassedTargetLine = sectionEndsAt <= targetLine
 
-//   // limites da seção
-//   const sectionBoundaries =
-//     sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
+  // limites da seção
+  const sectionBoundaries =
+    sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
 
-//   const sectionId = section.getAttribute('id')
-//   console.log('sectionId', sectionId)
-//   const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
+  const sectionId =
+    section.getAttribute('id') === 'journey'
+      ? 'flow'
+      : section.getAttribute('id')
 
-//   menuElement.classList.remove('active')
+  const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
 
-//   if (sectionBoundaries) {
-//     menuElement.classList.add('active')
-//   }
-// }
+  menuElement.classList.remove('active')
+
+  if (sectionBoundaries) {
+    menuElement.classList.add('active')
+  }
+}
 
 function showNavOnScroll() {
   if (scrollY > 0) {
