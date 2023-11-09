@@ -20,7 +20,7 @@ export function SectionBusiness() {
               <h3>Escute seu cliente</h3>
               <p>
                 Experiências valiosas são registradas quando os clientes
-                verbalizam espontaneamente.
+                verbalizam espontaneamente
               </p>
             </div>
 
@@ -32,7 +32,7 @@ export function SectionBusiness() {
                 alt="flow"
               />
               <h3>Conheça seu cliente</h3>
-              <p>Entenda com precisão a satisfação dos seus clientes.</p>
+              <p>Entenda com precisão a satisfação dos seus clientes</p>
             </div>
 
             <div className="card">
@@ -46,7 +46,7 @@ export function SectionBusiness() {
               <p>
                 Coloque em prática as ações certas e construa relacionamentos
                 duradouros com seus clientes. Esta é a chave para aumentar suas
-                vendas.
+                vendas
               </p>
             </div>
           </div>
