@@ -61,9 +61,10 @@ export function SectionClient() {
                     alt="flow"
                   />
                   <h6>
-                    “O seu cliente, hoje em dia, tem muito mais opções. Ele está
-                    muito mais bem informado. Quer testar coisas diferentes e
-                    todos devem se adaptar a isso, senão vão ficar para trás.”
+                    “Existem duas coisas comuns às empresas que dão certo:
+                    atendimento ao cliente e inovação. Você deve ter um
+                    atendimento ao cliente de primeira, e também estar atento ao
+                    que há de novo no mercado, para não ficar para trás.”
                   </h6>
                   <p>Jorge Paulo Lemann (Fundador da Ambev)</p>
                 </div>
@@ -137,8 +138,8 @@ export function SectionClient() {
             <div className="stat">
               <h3>91%</h3>
               <p>
-                dos clientes não farão negócios novamente com sua empresa
-                voluntariamente por má experiência.
+                dos clientes não farão negócios novamente com sua empresa por má
+                experiência com o atendimento ao cliente.
               </p>
               <span>(Fonte: Glance)</span>
             </div>
