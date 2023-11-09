@@ -10,6 +10,25 @@
     border-left: 8px solid var(--primary-color);
 }
 
+.carousel.carousel-slider {
+  overflow: inherit;
+}
+
+.carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
+  right: -20px;
+}
+
+.carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
+  left: -20px;
+}
+
+.carousel .slide img {
+  width: 100%;
+  vertical-align: top;
+  border: 0;
+  margin-left: 13px;
+}
+
  #journey {
   text-align: center;
   background-color: var(--brand-gray);
@@ -37,7 +56,7 @@
   }
 
   #journey .wrapper:nth-child(2) {
-    grid-template-columns: 48rem 1fr;
+    grid-template-columns: 70rem 1fr;
     grid-template-areas: 'B A';
     gap: 6.7rem;
   }
@@ -53,5 +72,4 @@
   #journey .content p {
     margin: 0;
   }
-
   }
