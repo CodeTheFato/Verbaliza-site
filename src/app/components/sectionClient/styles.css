@@ -20,6 +20,7 @@
   border-radius: 1.5rem;
   background-color: white;
   position:relative;
+  height:28rem;
 }
 #client .card .icon-quotes{
 position:absolute;

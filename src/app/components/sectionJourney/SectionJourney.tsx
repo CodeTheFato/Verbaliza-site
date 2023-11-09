@@ -32,7 +32,7 @@ export function SectionJourney() {
               <Image
                 width={919}
                 height={1416}
-                src="/assets/phone-verbaliza.png"
+                src="/assets/clientJourney/phone2.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
@@ -40,7 +40,7 @@ export function SectionJourney() {
               <Image
                 width={919}
                 height={1416}
-                src="/assets/phone-verbaliza.png"
+                src="/assets/clientJourney/phone3.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
@@ -48,7 +48,7 @@ export function SectionJourney() {
               <Image
                 width={919}
                 height={1416}
-                src="/assets/phone-verbaliza.png"
+                src="/assets/clientJourney/phone4.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
@@ -56,7 +56,7 @@ export function SectionJourney() {
               <Image
                 width={919}
                 height={1416}
-                src="/assets/phone-verbaliza.png"
+                src="/assets/clientJourney/phone5.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
@@ -64,7 +64,7 @@ export function SectionJourney() {
               <Image
                 width={919}
                 height={1416}
-                src="/assets/phone-verbaliza.png"
+                src="/assets/clientJourney/phone6.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
@@ -84,8 +84,9 @@ export function SectionJourney() {
           </header>
         </div>
 
-        <div className="col-b">
+        <div>
           <Carousel
+            className="company"
             interval={3000}
             swipeable={true}
             emulateTouch={true}
@@ -112,30 +113,6 @@ export function SectionJourney() {
                 alt="Aplicativo Verbaliza"
               />
             </div>
-            {/* <div>
-              <Image
-                width={1000}
-                height={2000}
-                src="/assets/home.png"
-                alt="Aplicativo Verbaliza"
-              />
-            </div>
-            <div>
-              <Image
-                width={1000}
-                height={2000}
-                src="/assets/home.png"
-                alt="Aplicativo Verbaliza"
-              />
-            </div>
-            <div>
-              <Image
-                width={1000}
-                height={2000}
-                src="/assets/home.png"
-                alt="Aplicativo Verbaliza"
-              />
-            </div> */}
           </Carousel>
         </div>
       </div>

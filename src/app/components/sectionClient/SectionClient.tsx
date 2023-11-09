@@ -46,11 +46,12 @@ export function SectionClient() {
                     alt="flow"
                   />
                   <h6>
-                    “O seu cliente, hoje em dia, tem muito mais opções. Ele está
-                    muito mais bem informado. Quer testar coisas diferentes e
-                    todos devem se adaptar a isso, senão vão ficar para trás.”
+                    “Existem duas coisas comuns às empresas que dão certo:
+                    atendimento ao cliente e inovação. Você deve ter um
+                    atendimento ao cliente de primeira, e também estar atento ao
+                    que há de novo no mercado, para não ficar para trás.”
                   </h6>
-                  <p>Jorge Paulo Lemann (Fundador da Ambev)</p>
+                  <p>Luiza Trajano (Fundadora do Magazine Luiza)</p>
                 </div>
                 <div className="card">
                   <Image
@@ -61,11 +62,10 @@ export function SectionClient() {
                     alt="flow"
                   />
                   <h6>
-                    “O seu cliente, hoje em dia, tem muito mais opções. Ele está
-                    muito mais bem informado. Quer testar coisas diferentes e
-                    todos devem se adaptar a isso, senão vão ficar para trás.”
+                    “Se você criar uma ótima experiência, os clientes contam uns
+                    aos outros sobre isso. O boca a boca é muito poderoso.“
                   </h6>
-                  <p>Jorge Paulo Lemann (Fundador da Ambev)</p>
+                  <p>Jeff Bezos (Fundador da Amazon)</p>
                 </div>
               </div>
 
@@ -79,11 +79,11 @@ export function SectionClient() {
                     alt="flow"
                   />
                   <h6>
-                    “O seu cliente, hoje em dia, tem muito mais opções. Ele está
-                    muito mais bem informado. Quer testar coisas diferentes e
-                    todos devem se adaptar a isso, senão vão ficar para trás.”
+                    “Só há um chefe. O cliente. E ele pode demitir todos na
+                    empresa, desde o presidente até os demais, simplesmente
+                    gastando seu dinheiro em outro lugar.“
                   </h6>
-                  <p>Jorge Paulo Lemann (Fundador da Ambev)</p>
+                  <p>Sam Walton (Fundador do Walmart)</p>
                 </div>
                 <div className="card">
                   <Image
@@ -94,11 +94,10 @@ export function SectionClient() {
                     alt="flow"
                   />
                   <h6>
-                    “O seu cliente, hoje em dia, tem muito mais opções. Ele está
-                    muito mais bem informado. Quer testar coisas diferentes e
-                    todos devem se adaptar a isso, senão vão ficar para trás.”
+                    “Seus clientes mais insatisfeitos são sua maior fonte de
+                    aprendizado.“
                   </h6>
-                  <p>Jorge Paulo Lemann (Fundador da Ambev)</p>
+                  <p>Bill Gates (Fundador da Microsoft)</p>
                 </div>
                 <div className="card">
                   <Image
@@ -109,11 +108,11 @@ export function SectionClient() {
                     alt="flow"
                   />
                   <h6>
-                    “O seu cliente, hoje em dia, tem muito mais opções. Ele está
-                    muito mais bem informado. Quer testar coisas diferentes e
-                    todos devem se adaptar a isso, senão vão ficar para trás.”
+                    “Os grandes vendedores são, antes de tudo, profundos
+                    conhecedores dos seus produtos e serviços, bem como dos
+                    desejos e necessidades dos seus clientes.”
                   </h6>
-                  <p>Jorge Paulo Lemann (Fundador da Ambev)</p>
+                  <p>Steve Jobs (Fundador da Apple)</p>
                 </div>
               </div>
             </Carousel>

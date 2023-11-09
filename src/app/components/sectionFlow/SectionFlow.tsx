@@ -36,15 +36,16 @@ export function SectionFlow() {
           <div>
             <h6>Scaneia QR Code</h6>
             <p>
-              Loja física: numa comunicação impressa Loja virtual: ao concluir a
-              compra ou junto do produto
+              Loja física: numa comunicação impressa
+              <br />
+              Loja virtual: ao concluir a compra ou junto do produto
             </p>
           </div>
           <div>
             <h6>Comenta experiência</h6>
             <p>Por vídeo, foto, áudio ou texto</p>
           </div>
-          <div className="ml-6">
+          <div>
             <h6>Avaliação dos comentários</h6>
             <p>VerbalizaCX registra e processa os resultados em tempo real</p>
           </div>

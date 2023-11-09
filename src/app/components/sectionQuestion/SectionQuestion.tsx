@@ -17,8 +17,10 @@ const questions: questionType[] = [
           possível:
         </li>
         <li>- Capturar as experiências dos clientes utilizando QR codes;</li>
-        <li>- Fazer análises com: Vídeos, fotos, áudios e textos;</li>
-        <li>- Gráficos interativos.</li>
+        <li>
+          - Fazer análises com: Vídeos, fotos, áudios, textos e gráficos
+          interativos;
+        </li>
       </ul>
     ),
   },
@@ -147,7 +149,7 @@ const questions: questionType[] = [
         <li>- Avalie o atendimento no 1º ou 2º andar do estabelecimento;</li>
         <li>- Avalie a limpeza do banheiro;</li>
         <li>
-          - Com VerbalizaCX, você tem flexibilidade para criar diferentes
+          Com VerbalizaCX, você tem flexibilidade para criar diferentes
           pesquisas e coletar a experiência dos clientes de diversas formas.
         </li>
       </ul>
