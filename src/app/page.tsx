@@ -6,6 +6,8 @@ import { SectionHome } from './components/sectionHome/SectionHome'
 import { SectionFlow } from './components/sectionFlow/SectionFlow'
 import { SectionJourney } from './components/sectionJourney/SectionJourney'
 import { SectionBusiness } from './components/sectionBusiness/SectionBusiness'
+import { SectionQuestion } from './components/sectionQuestion/SectionQuestion'
+import { SectionFooter } from './components/sectionFooter/SectionFooter'
 import { SectionClient } from './components/sectionClient/SectionClient'
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <SectionJourney />
       <SectionBusiness />
       <SectionClient />
+      <SectionQuestion />
+      <SectionFooter />
     </>
   )
 }
