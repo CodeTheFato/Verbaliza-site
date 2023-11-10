@@ -45,18 +45,18 @@ export default function Navbar() {
               </li>
               <li><a onClick={closeMenu} href="#client">Encante seus clientes</a></li>
               <li><a onClick={closeMenu} href="#questions">Saiba mais</a></li>
-              <div className='flex-row'>
-                <button>
-                  <a onClick={closeMenu} href="https://wa.me/5511984971182"
-                    target="_blank" rel="noreferrer">Verbalize conosco
-                  </a>
-                </button>
-
-                <svg className='hidden md:block' width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1.41 0L0 1.41L4.58 6L0 10.59L1.41 12L7.41 6L1.41 0Z" fill="white" />
-                </svg>
-              </div>
             </ul>
+            <div className='verbalize-content'>
+              <button className='verbalize'>
+                <a onClick={closeMenu} href="https://wa.me/5511984971182"
+                  target="_blank" rel="noreferrer">Verbalize conosco
+                </a>
+              </button>
+
+              <svg className='hidden md:block' width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.41 0L0 1.41L4.58 6L0 10.59L1.41 12L7.41 6L1.41 0Z" fill="white" />
+              </svg>
+            </div>
             <div className='flex-row'>
               <button onClick={login} className="button"
               >

@@ -175,6 +175,24 @@ body.menu-expanded button path {
     opacity: 0.7;
   }
 
+  nav#navigation .menu .verbalize-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin-left: 15rem;
+  }
+
+  nav#navigation .menu .verbalize-content svg {
+    margin-top:2px;
+  }
+
+  nav#navigation .menu .verbalize a{
+    color: white;
+    opacity: 0.7;
+  }
+
   nav#navigation .menu ul button a {
    color: white;
    opacity: 0.7;
@@ -195,6 +213,7 @@ body.menu-expanded button path {
     background-color:white;
     opacity: 0.4;
   }
+
   nav#navigation .menu button.button a{
    margin-right:0.5rem;
   }
@@ -205,7 +224,7 @@ body.menu-expanded button path {
     border: none;
   }
 
-  nav#navigation.scroll .menu ul button a,
+  nav#navigation.scroll .menu .verbalize a,
   nav#navigation.scroll .menu ul li a {
     color: #333333;
     opacity: 0.6;
