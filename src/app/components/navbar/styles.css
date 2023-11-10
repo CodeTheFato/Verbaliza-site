@@ -180,7 +180,8 @@ body.menu-expanded button path {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap:1rem;
+    margin-left: 15rem;
   }
 
   nav#navigation .menu .verbalize-content svg {
