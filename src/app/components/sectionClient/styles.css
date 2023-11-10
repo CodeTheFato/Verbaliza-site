@@ -24,8 +24,8 @@
 }
 #client .card .icon-quotes{
 position:absolute;
-top: 0;
-left: 0;
+top: -1px;
+left: -14px;
 width:61px;
 height:64px;
 }
