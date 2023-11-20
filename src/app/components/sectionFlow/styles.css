@@ -25,6 +25,7 @@
     max-width: 81.2rem;
   }
   .flow-details{
+    margin-top: 3rem;
     margin-left:6rem;
     display:flex;
     gap: 6rem;

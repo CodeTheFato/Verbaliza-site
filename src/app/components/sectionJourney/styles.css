@@ -14,13 +14,13 @@
   overflow: inherit;
 }
 
-.carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
+/* .carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
   right: -20px;
 }
 
 .carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
   left: -20px;
-}
+} */
 
 .carousel .slide img {
   width: 100%;
@@ -60,6 +60,10 @@
     grid-template-areas: 'B A';
     gap: 6.7rem;
   }
+
+  /* #journey .col-b{
+background-color:red;
+  } */
 
   #journey .col-a {
     align-self: center;

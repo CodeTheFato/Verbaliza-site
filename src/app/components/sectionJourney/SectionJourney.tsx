@@ -24,19 +24,27 @@ export function SectionJourney() {
             infiniteLoop={true}
             autoPlay
             showThumbs={false}
-            showArrows={true}
-            showIndicators={false}
+            showArrows={false}
+            showIndicators={true}
             showStatus={false}
           >
             <div>
               <Image
-                width={919}
-                height={1416}
+                width={244}
+                height={493}
                 src="/assets/clientJourney/phone2.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
             <div>
+              <Image
+                width={525}
+                height={819}
+                src="/assets/clientJourney/phone3.png"
+                alt="Aplicativo Verbaliza"
+              />
+            </div>
+            {/* <div>
               <Image
                 width={919}
                 height={1416}
@@ -67,7 +75,7 @@ export function SectionJourney() {
                 src="/assets/clientJourney/phone6.png"
                 alt="Aplicativo Verbaliza"
               />
-            </div>
+            </div> */}
           </Carousel>
         </div>
       </div>
@@ -84,17 +92,16 @@ export function SectionJourney() {
           </header>
         </div>
 
-        <div>
+        <div className="col-b">
           <Carousel
-            className="company"
             interval={3000}
             swipeable={true}
             emulateTouch={true}
             infiniteLoop={true}
             autoPlay
             showThumbs={false}
-            showArrows={true}
-            showIndicators={false}
+            showArrows={false}
+            showIndicators={true}
             showStatus={false}
           >
             <div>

@@ -14,14 +14,14 @@ export function SectionFlow() {
             </p>
             <Image
               className="flow-image hidden md:block"
-              src="/assets/flow.svg"
+              src="/assets/passos.svg"
               height={128}
               width={933}
               alt="flow"
             />
             <Image
               className="block md:hidden"
-              src="/assets/flow-mobile.svg"
+              src="/assets/passos-mobile.svg"
               height={128}
               width={933}
               alt="flow"
