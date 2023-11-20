@@ -8,15 +8,14 @@ export function SectionHome() {
         <div className="col-a">
           <header>
             <h2>
-              Um sistema de pesquisa com clientes para micro e pequenas
-              empresas.
+              Um sistema de pesquisa com clientes para micro e pequenas empresas
             </h2>
           </header>
 
           <div className="content">
             <p>
               Médias e grandes também
-              <br /> são bem-vindas.
+              <br /> são bem-vindas
             </p>
           </div>
         </div>
