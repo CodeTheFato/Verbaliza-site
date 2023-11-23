@@ -22,6 +22,12 @@ export default function HomePage() {
           </div>
           <Carousel interval={3000} swipeable={true} emulateTouch={true} infiniteLoop={true} autoPlay showThumbs={false} showArrows={false} showIndicators={false} showStatus={false}>
             <div>
+              <Image width={689} height={1062} src="/assets/banner/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
+            </div>
+            <div>
+              <Image width={689} height={1062} src="/assets/banner/report-motive.png" alt="Aplicativo Verbaliza" />
+            </div>
+            {/* <div>
               <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
             </div>
             <div>
@@ -29,13 +35,7 @@ export default function HomePage() {
             </div>
             <div>
               <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
-            </div>
-            <div>
-              <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
-            </div>
-            <div>
-              <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
-            </div>
+            </div> */}
           </Carousel>
         </div>
       </section>
