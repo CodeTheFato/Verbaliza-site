@@ -66,6 +66,11 @@
   margin-bottom: 0.4rem;
 }
 
+#home .phone-img{
+  width: 100%;
+  max-width: 308px;
+}
+
 @media (min-width: 1024px) {
 
    /* ============================ HOME ============================ */
@@ -104,5 +109,10 @@
 
   #home img {
     width: 42rem;
+  }
+
+  #home .notebook-banner{
+    margin-top: 8rem;
+    margin-left: 10rem;
   }
 }

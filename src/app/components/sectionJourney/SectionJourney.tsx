@@ -83,6 +83,14 @@ export function SectionJourney() {
               <Image
                 width={700}
                 height={479}
+                src="/assets/companyJourney/screen.png"
+                alt="Aplicativo Verbaliza"
+              />
+            </div>
+            <div className="company-journey-img">
+              <Image
+                width={700}
+                height={479}
                 src="/assets/companyJourney/1-screen.png"
                 alt="Aplicativo Verbaliza"
               />
@@ -92,14 +100,6 @@ export function SectionJourney() {
                 width={700}
                 height={479}
                 src="/assets/companyJourney/2-screen.png"
-                alt="Aplicativo Verbaliza"
-              />
-            </div>
-            <div className="company-journey-img">
-              <Image
-                width={700}
-                height={479}
-                src="/assets/companyJourney/screen.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
