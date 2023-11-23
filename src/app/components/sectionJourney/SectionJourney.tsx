@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel'
 export function SectionJourney() {
   return (
     <section id="journey">
-      <div className="wrapper">
+      <div className="wrapper client-journey">
         <div className="col-a">
           <header>
             <h2 className="">Visão do cliente</h2>
@@ -28,59 +28,34 @@ export function SectionJourney() {
             showIndicators={true}
             showStatus={false}
           >
-            <div>
+            <div className="client-journey-img">
               <Image
                 width={244}
                 height={493}
-                src="/assets/clientJourney/phone2.png"
+                src="/assets/clientJourney/phone-1.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
-            <div>
+            <div className="client-journey-img">
               <Image
-                width={525}
-                height={819}
-                src="/assets/clientJourney/phone3.png"
+                width={244}
+                height={493}
+                src="/assets/clientJourney/phone-2.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
-            {/* <div>
+            <div className="client-journey-img">
               <Image
-                width={919}
-                height={1416}
-                src="/assets/clientJourney/phone3.png"
+                width={244}
+                height={493}
+                src="/assets/clientJourney/phone-3.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
-            <div>
-              <Image
-                width={919}
-                height={1416}
-                src="/assets/clientJourney/phone4.png"
-                alt="Aplicativo Verbaliza"
-              />
-            </div>
-            <div>
-              <Image
-                width={919}
-                height={1416}
-                src="/assets/clientJourney/phone5.png"
-                alt="Aplicativo Verbaliza"
-              />
-            </div>
-            <div>
-              <Image
-                width={919}
-                height={1416}
-                src="/assets/clientJourney/phone6.png"
-                alt="Aplicativo Verbaliza"
-              />
-            </div> */}
           </Carousel>
         </div>
       </div>
-
-      <div className="wrapper">
+      <div className="wrapper company-journey">
         <div className="col-a">
           <header>
             <h2 className="">Visão da empresa</h2>
@@ -104,19 +79,27 @@ export function SectionJourney() {
             showIndicators={true}
             showStatus={false}
           >
-            <div>
+            <div className="company-journey-img">
               <Image
-                width={2668}
-                height={6012}
-                src="/assets/home.png"
+                width={700}
+                height={479}
+                src="/assets/companyJourney/1-screen.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
-            <div>
+            <div className="company-journey-img">
               <Image
-                width={2668}
-                height={6012}
-                src="/assets/home.png"
+                width={700}
+                height={479}
+                src="/assets/companyJourney/2-screen.png"
+                alt="Aplicativo Verbaliza"
+              />
+            </div>
+            <div className="company-journey-img">
+              <Image
+                width={700}
+                height={479}
+                src="/assets/companyJourney/screen.png"
                 alt="Aplicativo Verbaliza"
               />
             </div>
