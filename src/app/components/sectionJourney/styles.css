@@ -14,6 +14,12 @@
   overflow: inherit;
 }
 
+.carousel .control-dots {
+  /* left: 10px; */
+  margin-left:10px;
+  bottom:-30px;
+}
+
 /* .carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
   right: -20px;
 }
@@ -44,6 +50,31 @@
   margin-bottom: 6rem;
 }
 
+#journey .company-journey{
+  margin: auto;
+}
+
+#journey .col-b .company-journey-img{
+  margin-top:5rem;
+  width: 100%;
+  max-width: 308px;
+}
+
+#journey .col-b .client-journey-img{
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom:2rem;
+  margin-top:5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#journey .company-journey{
+margin-top: 5rem;
+}
+
   @media (min-width: 1024px) {
     #journey {
   text-align: left;
@@ -61,9 +92,27 @@
     gap: 6.7rem;
   }
 
-  /* #journey .col-b{
-background-color:red;
-  } */
+  #journey .col-b{
+    width: 100%;
+  }
+
+  #journey .col-b .client-journey-img{
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: auto;
+    margin-bottom:2rem;
+  }
+
+  #journey .col-b .company-journey-img{
+    margin-top:5rem;
+    width: 100%;
+    max-width: 680px;
+  }
+
+  #journey .company-journey{
+margin-top: 10rem;
+  }
 
   #journey .col-a {
     align-self: center;
