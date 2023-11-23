@@ -27,15 +27,6 @@ export default function HomePage() {
             <div>
               <Image width={689} height={1062} src="/assets/banner/report-motive.png" alt="Aplicativo Verbaliza" />
             </div>
-            {/* <div>
-              <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
-            </div>
-            <div>
-              <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
-            </div>
-            <div>
-              <Image width={689} height={1062} src="/assets/smart-phone-verbaliza.png" alt="Aplicativo Verbaliza" />
-            </div> */}
           </Carousel>
         </div>
       </section>
