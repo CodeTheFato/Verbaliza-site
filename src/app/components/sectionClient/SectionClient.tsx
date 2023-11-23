@@ -14,8 +14,10 @@ export function SectionClient() {
         <div className="content">
           <div className="cards">
             <Carousel
-              emulateTouch={true}
-              infiniteLoop={false}
+              interval={8000}
+              swipeable={true}
+              autoPlay={true}
+              infiniteLoop={true}
               showThumbs={false}
               showArrows={false}
               showIndicators={true}
