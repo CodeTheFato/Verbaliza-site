@@ -11,7 +11,7 @@ export default function Navbar() {
   }
 
   function login() {
-    window.open("https://verbaliza-app-dev.vercel.app/admin/signin", "_blank")
+    window.open("https://verbaliza-app.vercel.app/admin/signin", "_blank")
     closeMenu()
   }
   return (
