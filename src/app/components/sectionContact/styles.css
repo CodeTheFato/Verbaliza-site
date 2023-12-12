@@ -55,12 +55,18 @@
   cursor: pointer;
 }
 
+#contact .verbalize-contact .btn span {
+  margin-left: 0.8rem;
+}
+
 @media (min-width: 1024px) {
 #contact .content {
   display: flex;
   flex-direction: row;
   justify-content: center;
   justify-content: space-between;
+
+  margin-top: -4rem;
 }
 
 #contact {
