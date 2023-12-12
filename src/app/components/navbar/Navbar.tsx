@@ -48,8 +48,7 @@ export default function Navbar() {
             </ul>
             <div className='verbalize-content'>
               <button className='verbalize'>
-                <a onClick={closeMenu} href="https://wa.me/5511987789871"
-                  target="_blank" rel="noreferrer">Verbalize conosco
+                <a onClick={closeMenu} href="#contact" >Verbalize conosco
                 </a>
               </button>
 
