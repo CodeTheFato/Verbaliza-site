@@ -9,6 +9,7 @@ import { SectionBusiness } from './components/sectionBusiness/SectionBusiness'
 import { SectionQuestion } from './components/sectionQuestion/SectionQuestion'
 import { SectionFooter } from './components/sectionFooter/SectionFooter'
 import { SectionClient } from './components/sectionClient/SectionClient'
+import { SectionContact } from './components/sectionContact/SectionContact'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <SectionBusiness />
       <SectionClient />
       <SectionQuestion />
+      <SectionContact />
       <SectionFooter />
     </>
   )
