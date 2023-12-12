@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import './SectionFooter.css'
+import Link from 'next/link'
 
 export function SectionFooter() {
   return (
@@ -30,18 +31,17 @@ export function SectionFooter() {
                   height={20}
                 />
                 <div>
-                  <Image
-                    alt="youtube icon"
-                    src="/assets/youtubeSmall.svg"
-                    width={24}
-                    height={24}
-                  />
-                  <Image
-                    alt="instagram icon"
-                    src="/assets/instagramSmall.svg"
-                    width={24}
-                    height={24}
-                  />
+                  <Link
+                    href={'https://www.instagram.com/verbalizacx/'}
+                    target="_blank"
+                  >
+                    <Image
+                      alt="instagram icon"
+                      src="/assets/instagramSmall.svg"
+                      width={24}
+                      height={24}
+                    />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -60,18 +60,17 @@ export function SectionFooter() {
                   height={20}
                 />
                 <div>
-                  <Image
-                    alt="youtube icon"
-                    src="/assets/youtubeSmall.svg"
-                    width={24}
-                    height={24}
-                  />
-                  <Image
-                    alt="instagram icon"
-                    src="/assets/instagramSmall.svg"
-                    width={24}
-                    height={24}
-                  />
+                  <Link
+                    href={'https://www.instagram.com/verbalizacx/'}
+                    target="_blank"
+                  >
+                    <Image
+                      alt="instagram icon"
+                      src="/assets/instagramSmall.svg"
+                      width={24}
+                      height={24}
+                    />
+                  </Link>
                 </div>
               </div>
             </div>
