@@ -6,6 +6,7 @@ const journey = document.getElementById('journey')
 // const business = document.getElementById('business')
 const client = document.getElementById('client')
 const questions = document.getElementById('questions')
+const prices = document.getElementById('prices')
 
 onScroll()
 
@@ -17,6 +18,7 @@ function onScroll() {
   // activeMenuAtCurrentSection(business)
   activeMenuAtCurrentSection(client)
   activeMenuAtCurrentSection(questions)
+  activeMenuAtCurrentSection(prices)
 }
 
 function activeMenuAtCurrentSection(section) {

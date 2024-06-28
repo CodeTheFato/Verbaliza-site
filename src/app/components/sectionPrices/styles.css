@@ -1,0 +1,146 @@
+#prices header h2 {
+  margin-bottom: 1.5rem;
+}
+
+#prices .cards {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#prices .card {
+  padding: 2.4rem;
+  border: 1px solid var(--brand-light);
+  border-radius: 0.6rem;
+  background-color: white;
+  max-width: 30rem;
+  height: 52rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#prices .card h3 {
+  margin-block: 1.6rem;
+  font-weight: bold;
+  color: var(--brand-black-300);
+}
+
+#prices .card label {
+  margin-block: 1.6rem;
+  font-weight: normal;
+  color: var(--brand-headline);
+  font-size: 2.75rem;
+}
+
+#prices li label {
+  /* margin-block: 1.6rem;
+  font-weight: normal;
+  color: var(--brand-headline); */
+  font-size: 1.75rem;
+}
+
+#prices .card circle {
+  fill: var(--brand-light);
+}
+
+#prices .discount {
+  margin-bottom: 2rem;
+}
+
+/* strike */
+s,
+strike {
+  text-decoration: none;
+  position: relative;
+}
+s::before,
+strike::before {
+  top: 50%; /*tweak this to adjust the vertical position if it's off a bit due to your font family */
+  background: red; /*this is the color of the line*/
+  opacity: 0.7;
+  content: "";
+  width: 110%;
+  position: absolute;
+  height: 0.1em;
+  border-radius: 0.1em;
+  left: -5%;
+  white-space: nowrap;
+  display: block;
+  transform: rotate(-15deg);
+}
+s.straight::before,
+strike.straight::before {
+  transform: rotate(0deg);
+  left: -1%;
+  width: 102%;
+}
+
+/* button */
+#prices .blue-btn a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block; /* important */
+}
+
+#prices .blue-btn,
+#prices .first-link {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#prices .blue-btn {
+  height: 64px;
+  font: normal normal 700 1em/4em Arial, sans-serif;
+  overflow: hidden;
+  width: 200px;
+  background-color: #003d60;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: auto;
+}
+
+#prices .blue-btn:hover {
+  background-color: var(--primary-color);
+}
+
+#prices .blue-btn a:hover {
+  text-decoration: none;
+}
+
+#prices .first-link {
+  margin-top: 0em;
+}
+
+#prices .blue-btn:hover .first-link {
+  margin-top: -4em;
+}
+
+@media (min-width: 1024px) {
+  #prices h2 {
+    width: 47rem;
+    margin-inline: auto;
+    color: var(--title-h2);
+  }
+
+  #prices .cards {
+    margin-top: 6rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  #prices .card {
+    width: 30%;
+    flex-grow: 1;
+  }
+}

@@ -10,6 +10,8 @@ import { SectionQuestion } from './components/sectionQuestion/SectionQuestion'
 import { SectionFooter } from './components/sectionFooter/SectionFooter'
 import { SectionClient } from './components/sectionClient/SectionClient'
 import { SectionContact } from './components/sectionContact/SectionContact'
+import { SectionPrices } from './components/sectionPrices/SectionPrices'
+// import { SectionAlerts } from './components/sectionAlerts/SectionAlerts'
 
 export default function Home() {
   return (
@@ -19,8 +21,10 @@ export default function Home() {
       <SectionHome />
       <SectionFlow />
       <SectionJourney />
+      {/* <SectionAlerts /> */}
       <SectionBusiness />
       <SectionClient />
+      <SectionPrices />
       <SectionQuestion />
       <SectionContact />
       <SectionFooter />

@@ -1,0 +1,49 @@
+#alerts header h2 {
+  margin-bottom: 1.5rem;
+}
+
+#alerts .cards {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+#alerts .card {
+  padding: 2.4rem;
+  text-align: left;
+  border: 1px solid var(--brand-light);
+  border-radius: 0.6rem;
+  background-color: white;
+}
+
+#alerts .card h3 {
+  margin-block: 1.6rem;
+  font-weight: bold;
+  color: var(--brand-black-300);
+
+}
+
+#alerts .card circle {
+  fill: var(--brand-light);
+}
+
+@media (min-width: 1024px) {
+ #alerts h2 {
+    width: 47rem;
+    margin-inline: auto;
+    color: var(--title-h2);
+  }
+
+  #alerts .cards {
+    margin-top: 6rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  #alerts .card {
+    width: 30%;
+    flex-grow: 1;
+  }
+}

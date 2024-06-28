@@ -7,10 +7,26 @@ export function SectionContact() {
       <div className="wrapper">
         <div className="content">
           <div className="verbalize-conosco">
-            <h1>Verbalize Conosco</h1>
-            <h4>Fale com um consultor!</h4>
+            <div className="link-btn">
+              <a
+                className="first-link"
+                href="https://verbaliza-app-dev.vercel.app/admin/signin/register"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Experimente Grátis
+              </a>
+              <a
+                href="https://verbaliza-app-dev.vercel.app/admin/signin/register"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Experimente Grátis
+              </a>
+            </div>
           </div>
           <div className="verbalize-contact">
+            <h1 className="font-bold">Verbalize Conosco</h1>
             <h1>Ligue para (11) 98778-9871</h1>
             <h1>ou</h1>
             <Link
