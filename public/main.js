@@ -9,8 +9,13 @@ const questions = document.getElementById('questions')
 const prices = document.getElementById('prices')
 
 onScroll()
+addClassPrivacyPolicy()
 
 function onScroll() {
+  const currentURL = window.location.href
+  if (currentURL.includes('PrivacyPolicy')) {
+    return
+  }
   showNavOnScroll()
   // showBackToTopButtonOnScroll()
   activeMenuAtCurrentSection(flow)
@@ -30,14 +35,14 @@ function activeMenuAtCurrentSection(section) {
 
   // o topo da seção
   let sectionTop
-  if (section.getAttribute('id') === 'journey') {
+  if (section?.getAttribute('id') === 'journey') {
     sectionTop = flow.offsetTop // Use o offsetTop da primeira seção como referência
   } else {
-    sectionTop = section.offsetTop
+    sectionTop = section?.offsetTop
   }
 
   // a altura da seção
-  const sectionHeight = section.offsetHeight
+  const sectionHeight = section?.offsetHeight
 
   // o topo da seção chegou ou ultrapassou a linha alvo
   const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
@@ -56,24 +61,35 @@ function activeMenuAtCurrentSection(section) {
     sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
 
   const sectionId =
-    section.getAttribute('id') === 'journey'
+    section?.getAttribute('id') === 'journey'
       ? 'flow'
-      : section.getAttribute('id')
+      : section?.getAttribute('id')
 
   const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
 
-  menuElement.classList.remove('active')
+  menuElement?.classList.remove('active')
 
   if (sectionBoundaries) {
-    menuElement.classList.add('active')
+    menuElement?.classList.add('active')
   }
 }
 
 function showNavOnScroll() {
   if (scrollY > 0) {
-    document.getElementById('navigation').classList.add('scroll')
+    document.getElementById('navigation')?.classList.add('scroll')
   } else {
-    document.getElementById('navigation').classList.remove('scroll')
+    document.getElementById('navigation')?.classList.remove('scroll')
+  }
+}
+
+function addClassPrivacyPolicy() {
+  const currentURL = window.location.href
+
+  if (currentURL.includes('PrivacyPolicy')) {
+    const menuElement = document.querySelector(`.menu a[href*=${'flow'}]`)
+    menuElement?.classList.remove('active')
+
+    document.getElementById('navigation')?.classList.add('scroll')
   }
 }
 

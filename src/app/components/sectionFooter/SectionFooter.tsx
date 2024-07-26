@@ -49,7 +49,11 @@ export function SectionFooter() {
             <hr className="divider" />
             <div className="policyContent">
               <div>
-                <span>Política de privadidade</span>
+                <a href="/PrivacyPolicy">
+                  {' '}
+                  <span>Política de privadidade</span>
+                </a>
+
                 <span>Termos de uso</span>
               </div>
               <span>©2023. Todos os direitos reservados</span>
