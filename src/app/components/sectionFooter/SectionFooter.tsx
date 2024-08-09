@@ -53,8 +53,9 @@ export function SectionFooter() {
                   {' '}
                   <span>Política de privadidade</span>
                 </a>
-
-                <span>Termos de uso</span>
+                <a href="/TermsUse">
+                  <span>Termos de uso</span>
+                </a>
               </div>
               <span>©2023. Todos os direitos reservados</span>
               <div className="navIconsMobile">

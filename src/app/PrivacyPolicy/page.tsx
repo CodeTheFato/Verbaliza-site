@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import Navbar from '../components/navbar/Navbar'
 
-export default function Component() {
+export default function PrivacyPolicy() {
   return (
     <>
       <Navbar />
       <div
-        className="wrapper w-[500px]"
+        className="wrapper mb-10 w-[500px]"
         style={{ marginTop: '150px', textAlign: 'left' }}
       >
         <h1 style={{ fontSize: '30px' }} className="font-bold">

@@ -13,7 +13,7 @@ addClassPrivacyPolicy()
 
 function onScroll() {
   const currentURL = window.location.href
-  if (currentURL.includes('PrivacyPolicy')) {
+  if (currentURL.includes('PrivacyPolicy') || currentURL.includes('TermsUse')) {
     return
   }
   showNavOnScroll()
@@ -85,7 +85,7 @@ function showNavOnScroll() {
 function addClassPrivacyPolicy() {
   const currentURL = window.location.href
 
-  if (currentURL.includes('PrivacyPolicy')) {
+  if (currentURL.includes('PrivacyPolicy') || currentURL.includes('TermsUse')) {
     const menuElement = document.querySelector(`.menu a[href*=${'flow'}]`)
     menuElement?.classList.remove('active')
 
