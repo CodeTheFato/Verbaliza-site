@@ -60,8 +60,8 @@ export function SectionGoogle() {
                   />
                   <h3>Google Reviews</h3>
                   <p style={{ width: '160px' }}>
-                    Experiências valiosas são registradas quando os clientes
-                    verbalizam espontaneamente
+                    No final da pesquisa, são direcionados para o Google
+                    Reviews.
                   </p>
                 </div>
                 <Image
@@ -73,7 +73,6 @@ export function SectionGoogle() {
                   width={400}
                   height={479}
                   src="/assets/google/review1.png"
-                  // src="/assets/banner/smart-phone-verbaliza.png"
                   alt="Aplicativo Verbaliza"
                 />
               </div>
