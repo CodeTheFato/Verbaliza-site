@@ -1,0 +1,63 @@
+#google header h2 {
+  margin-bottom: 1.5rem;
+  color:var(--primary-color);
+}
+
+#google .cards {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+#google .card {
+  padding: 2.4rem;
+  text-align: left;
+  border: 1px solid var(--brand-light);
+  border-radius: 2.4rem;
+  background-color: var(--primary-color);
+  /* background-color: #003d60; */
+}
+
+#google .card h3 {
+  margin-block: 1.6rem;
+  font-weight: bold;
+  color: white;
+
+}
+
+#google .card p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: white;
+}
+
+#google .card circle {
+  fill: var(--brand-light);
+}
+
+@media (min-width: 1024px) {
+ #google h2 {
+    width: 67rem;
+    margin-inline: auto;
+    color: var(--title-h2);
+  }
+
+  #google h3 {
+    width: 20rem;
+    font-size: 2.4rem;
+  }
+
+  #google .cards {
+    margin-top: 6rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  #google .card {
+    width: 30%;
+    height: 35rem;
+    flex-grow: 1;
+  }
+}

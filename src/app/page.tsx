@@ -11,6 +11,7 @@ import { SectionFooter } from './components/sectionFooter/SectionFooter'
 import { SectionClient } from './components/sectionClient/SectionClient'
 import { SectionContact } from './components/sectionContact/SectionContact'
 import { SectionPrices } from './components/sectionPrices/SectionPrices'
+import { SectionGoogle } from './components/sectionGoogle/SectionGoogle'
 // import { SectionAlerts } from './components/sectionAlerts/SectionAlerts'
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <SectionHome />
       <SectionFlow />
       <SectionJourney />
+      <SectionGoogle/>
       {/* <SectionAlerts /> */}
       <SectionBusiness />
       <SectionClient />
