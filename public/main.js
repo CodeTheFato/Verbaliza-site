@@ -1,9 +1,8 @@
-/* eslint-disable no-undef */
 window.addEventListener('scroll', onScroll)
 
 const flow = document.getElementById('flow')
 const journey = document.getElementById('journey')
-// const business = document.getElementById('business')
+const google = document.getElementById('google')
 const client = document.getElementById('client')
 const questions = document.getElementById('questions')
 const prices = document.getElementById('prices')
@@ -17,54 +16,56 @@ function onScroll() {
     return
   }
   showNavOnScroll()
-  // showBackToTopButtonOnScroll()
-  activeMenuAtCurrentSection(flow)
-  activeMenuAtCurrentSection(journey)
-  // activeMenuAtCurrentSection(business)
+
+  activeMenuForSystemSection([flow, journey, google]) // Agrupa as seções do menu "O Sistema"
+
   activeMenuAtCurrentSection(client)
   activeMenuAtCurrentSection(questions)
   activeMenuAtCurrentSection(prices)
 }
 
-function activeMenuAtCurrentSection(section) {
-  // linha alvo
+function activeMenuForSystemSection(sections) {
   const targetLine = scrollY + innerHeight / 2
 
-  // verificar se a seção passou da linha
-  // quais dados vou precisar?
+  // Iterar pelas seções agrupadas
+  let inSystemSection = false
+  sections.forEach((section) => {
+    const sectionTop = section?.offsetTop
+    const sectionHeight = section?.offsetHeight
+    const sectionEndsAt = sectionTop + sectionHeight
 
-  // o topo da seção
-  let sectionTop
-  if (section?.getAttribute('id') === 'journey') {
-    sectionTop = flow.offsetTop // Use o offsetTop da primeira seção como referência
+    const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
+    const sectionEndPassedTargetLine = sectionEndsAt <= targetLine
+
+    if (sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine) {
+      inSystemSection = true
+    }
+  })
+
+  // Obter o elemento do menu "O Sistema"
+  const menuElement = document.querySelector('.menu a[href*="flow"]')
+
+  // Ativar ou desativar a classe "active"
+  if (inSystemSection) {
+    menuElement?.classList.add('active')
   } else {
-    sectionTop = section?.offsetTop
+    menuElement?.classList.remove('active')
   }
+}
 
-  // a altura da seção
+function activeMenuAtCurrentSection(section) {
+  const targetLine = scrollY + innerHeight / 2
+  const sectionTop = section?.offsetTop
   const sectionHeight = section?.offsetHeight
-
-  // o topo da seção chegou ou ultrapassou a linha alvo
-  const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
-
-  // verificar se a base está abaixo da linha alvo
-  // quais dados vou precisar?
-
-  // a seção termina onde?
   const sectionEndsAt = sectionTop + sectionHeight
 
-  // o final da seção passou da linha alvo
+  const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
   const sectionEndPassedTargetLine = sectionEndsAt <= targetLine
 
-  // limites da seção
   const sectionBoundaries =
     sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
 
-  const sectionId =
-    section?.getAttribute('id') === 'journey'
-      ? 'flow'
-      : section?.getAttribute('id')
-
+  const sectionId = section?.getAttribute('id')
   const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
 
   menuElement?.classList.remove('active')
@@ -92,25 +93,3 @@ function addClassPrivacyPolicy() {
     document.getElementById('navigation')?.classList.add('scroll')
   }
 }
-
-// function showBackToTopButtonOnScroll() {
-//   if (scrollY > 400) {
-//     document.getElementById('backToTopButton').classList.add('show')
-//   } else {
-//     document.getElementById('backToTopButton').classList.remove('show')
-//   }
-// }
-
-// ScrollReveal({
-//   origin: 'top',
-//   distance: '30px',
-//   duration: 700,
-// }).reveal(`
-// #home,
-// #home img,
-// #home .stats,
-// #services,
-// #services .card,
-// #about,
-// #about header,
-// #about .content`)
