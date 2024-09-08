@@ -8,8 +8,10 @@ export function SectionGoogle() {
           <h2>Aproveite o poder do feedback positivo!</h2>
           <p>
             Com VerbalizaCX, clientes satisfeitos são direcionados para
-            compartilhar suas experiências no Google Reviews, elevando sua
-            visibilidade e credibilidade online. Como funciona?
+            compartilhar suas experiências no Google Reviews,
+          </p>
+          <p>
+            elevando sua visibilidade e credibilidade online. Como funciona?
           </p>
         </header>
         <div className="content">
@@ -26,10 +28,10 @@ export function SectionGoogle() {
                     width={64}
                     alt="flow"
                   />
-                  <h3>Clientes avaliam a experiência</h3>
+                  <h3>Clientes respondem à pesquisa</h3>
                   <p style={{ width: '160px' }}>
-                    Experiências valiosas são registradas quando os clientes
-                    verbalizam espontaneamente
+                    Somente aqueles com experiências positivas são direcionados
+                    para deixar uma avaliação no Google Reviews
                   </p>
                 </div>
                 <Image
@@ -58,10 +60,10 @@ export function SectionGoogle() {
                     width={64}
                     alt="flow"
                   />
-                  <h3>Google Reviews</h3>
+                  <h3>Clientes avaliam no Google Reviews</h3>
                   <p style={{ width: '160px' }}>
-                    No final da pesquisa, são direcionados para o Google
-                    Reviews.
+                    Após a pesquisa, um link direto para o Google Reviews é
+                    ativado automaticamente
                   </p>
                 </div>
                 <Image

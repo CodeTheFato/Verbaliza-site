@@ -12,7 +12,7 @@ export function PlanCards() {
         </p>
         <div className="divider" />
         <div className="price-description">
-          <p>1 unidade de negócio</p>
+          <p>1 Unidade de negócio</p>
           <p>1 Licença</p>
         </div>
         <div className="divider" />

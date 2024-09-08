@@ -34,7 +34,7 @@ const SliderPrices = (props: PlanCardProps) => {
         / Mês
       </h2>
       <p className="font-open-sans text-black-300 mb-5 w-full text-center text-lg font-medium">
-        {selectedPlan?.units} unidade{selectedPlan?.units > 1 ? 's' : ''} de
+        {selectedPlan?.units} Unidade{selectedPlan?.units > 1 ? 's' : ''} de
         negócio.
       </p>
 
