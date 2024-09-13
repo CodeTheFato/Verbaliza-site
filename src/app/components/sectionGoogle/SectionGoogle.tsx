@@ -29,12 +29,13 @@ export function SectionGoogle() {
                     alt="flow"
                   />
                   <h3>Clientes respondem à pesquisa</h3>
-                  <p style={{ width: '160px' }}>
+                  <p>
                     Somente aqueles com experiências positivas são direcionados
                     para deixar uma avaliação no Google Reviews
                   </p>
                 </div>
                 <Image
+                  className="hidden md:block"
                   style={{
                     position: 'absolute',
                     top: '2rem',
@@ -61,12 +62,13 @@ export function SectionGoogle() {
                     alt="flow"
                   />
                   <h3>Clientes avaliam no Google Reviews</h3>
-                  <p style={{ width: '160px' }}>
+                  <p>
                     Após a pesquisa, um link direto para o Google Reviews é
                     ativado automaticamente
                   </p>
                 </div>
                 <Image
+                  className="hidden md:block"
                   style={{
                     position: 'absolute',
                     bottom: '-10rem',

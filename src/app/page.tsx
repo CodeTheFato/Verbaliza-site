@@ -12,7 +12,7 @@ import { SectionClient } from './components/sectionClient/SectionClient'
 import { SectionContact } from './components/sectionContact/SectionContact'
 import { SectionPrices } from './components/sectionPrices/SectionPrices'
 import { SectionGoogle } from './components/sectionGoogle/SectionGoogle'
-// import { SectionAlerts } from './components/sectionAlerts/SectionAlerts'
+import { SectionStatistics } from './components/sectionStatistics/sectionStatistics'
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
       <SectionFlow />
       <SectionJourney />
       <SectionGoogle/>
-      {/* <SectionAlerts /> */}
+      <SectionStatistics/>
       <SectionBusiness />
       <SectionClient />
       <SectionPrices />

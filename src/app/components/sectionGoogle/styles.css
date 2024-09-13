@@ -59,4 +59,7 @@
     height: 40rem;
     flex-grow: 1;
   }
+  #google .card p {
+  width: 160px;
+  }
 }

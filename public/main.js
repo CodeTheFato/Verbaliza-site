@@ -3,6 +3,7 @@ window.addEventListener('scroll', onScroll)
 const flow = document.getElementById('flow')
 const journey = document.getElementById('journey')
 const google = document.getElementById('google')
+const statistics = document.getElementById('statistics')
 const client = document.getElementById('client')
 const questions = document.getElementById('questions')
 const prices = document.getElementById('prices')
@@ -17,7 +18,7 @@ function onScroll() {
   }
   showNavOnScroll()
 
-  activeMenuForSystemSection([flow, journey, google]) // Agrupa as seções do menu "O Sistema"
+  activeMenuForSystemSection([flow, journey, google, statistics]) // Agrupa as seções do menu "O Sistema"
 
   activeMenuAtCurrentSection(client)
   activeMenuAtCurrentSection(questions)
