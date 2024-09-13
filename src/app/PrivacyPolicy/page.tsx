@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
         <h1 style={{ fontSize: '30px' }} className="font-bold">
           Política de Privacidade e de Proteção de Dados
         </h1>
-        <h2 className="mt-6">Última atualização: [Data Atual]</h2>
+        <h2 className="mt-6">Última atualização: 01/10/2024</h2>
         <p className="mt-6">
           A Política de Privacidade e de Proteção de Dados da Verbaliza CX
           ("Política") foi criada para demonstrar o compromisso da Verbaliza CX
@@ -34,10 +34,10 @@ export default function PrivacyPolicy() {
           administrar um canal de comunicação com você. Se você tiver quaisquer
           dúvidas relacionadas às atividades de tratamento de dados pessoais sob
           nossa responsabilidade, por favor envie um e-mail para
-          [seuemail@verbalizacx.com] aos cuidados de [Nome do Encarregado].
-          Menciona-se por oportuno que, na ausência desta, por caso fortuito ou
-          força maior, quem responde pelo tema em nome da Companhia é a
-          Estrutura de Proteção de Dados Pessoais que faz parte do Jurídico.
+          verbalizacx@gmail.com aos cuidados de Fabio Tadeu. Menciona-se por
+          oportuno que, na ausência desta, por caso fortuito ou força maior,
+          quem responde pelo tema em nome da Companhia é a Estrutura de Proteção
+          de Dados Pessoais que faz parte do Jurídico.
         </p>
         <p className="mt-6">
           Ao utilizar nossas Aplicações de Internet e serviços, você manifesta
@@ -311,11 +311,11 @@ export default function PrivacyPolicy() {
         </p>
         <p className="mt-6">
           6.2. O seu requerimento poderá ser feito gratuitamente através do
-          nosso site disponível em [link do site]. Analisaremos seu pedido e o
-          atenderemos com a maior brevidade possível, considerando os prazos e
-          os termos previstos na legislação aplicável. Caso não seja possível
-          atender imediatamente a sua requisição, indicaremos as razões de fato
-          ou de direito que nos impedem.
+          nosso site disponível em https://verbalizacx.com. Analisaremos seu
+          pedido e o atenderemos com a maior brevidade possível, considerando os
+          prazos e os termos previstos na legislação aplicável. Caso não seja
+          possível atender imediatamente a sua requisição, indicaremos as razões
+          de fato ou de direito que nos impedem.
         </p>
         <p className="mt-6">
           6.3. Especificamente com relação aos direitos de confirmação de
@@ -383,7 +383,7 @@ export default function PrivacyPolicy() {
           Verbaliza CX nunca irá solicitar sua senha e/ou dados de cartão de
           crédito / débito através de e-mail ou contato telefônico. No caso de
           qualquer outra atitude suspeita, encaminhe sua dúvida ou alerta por
-          e-mail para [seuemail@verbalizacx.com].
+          e-mail para verbalizacx@gmail.com.
         </p>
         <h2 className="mt-6 font-bold">9. CONEXÕES (LINKS) A OUTROS SITES</h2>
         <p className="mt-6">
@@ -427,11 +427,11 @@ export default function PrivacyPolicy() {
           11.2. Eventuais controvérsias relacionadas a esta Política deverão ser
           preferencialmente resolvidas de modo extrajudicial. Nosso encarregado
           está à disposição para buscar com você uma solução consensual. Por
-          favor, nos encaminhe um e-mail para [seuemail@verbalizacx.com]. Não
-          sendo possível a resolução amigável, quaisquer litígios relacionados a
-          esta Política de Privacidade e de Proteção de Dados serão da
-          competência exclusiva do Foro da Comarca da cidade de [Sua Cidade],
-          com a exclusão de qualquer outro, por mais privilegiado que seja.
+          favor, nos encaminhe um e-mail para verbalizacx@gmail.com. Não sendo
+          possível a resolução amigável, quaisquer litígios relacionados a esta
+          Política de Privacidade e de Proteção de Dados serão da competência
+          exclusiva do Foro da Comarca da cidade de São Paulo, com a exclusão de
+          qualquer outro, por mais privilegiado que seja.
         </p>
       </div>
     </>

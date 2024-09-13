@@ -149,14 +149,14 @@ export default function TermsUse() {
         </p>
         <p className="mt-4">
           11.2. Qualquer disputa decorrente deste Termo será submetida ao foro
-          da comarca da cidade de [Sua Cidade], com exclusão de qualquer outro,
-          por mais privilegiado que seja.
+          da comarca da cidade de São Paulo, com exclusão de qualquer outro, por
+          mais privilegiado que seja.
         </p>
 
         <h2 className="mt-6 font-bold">12. CONTATO</h2>
         <p className="mt-6">
           12.1. Em caso de dúvidas sobre este Termo, entre em contato conosco
-          através do e-mail seuemail@verbalizacx.com.
+          através do e-mail verbalizacx@gmail.com.
         </p>
       </div>
     </>
