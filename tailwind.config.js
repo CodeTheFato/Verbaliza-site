@@ -4,7 +4,16 @@ module.exports = {
     './pages/**/*.{ts,tsx}',
     './public/**/*.html',
   ],
-  plugins: [require('flowbite/plugin')],
+  plugins: [
+    require('flowbite/plugin'),
+    // ,
+    // require('daisyui')
+  ],
+  // daisyui: {
+  //   themes: false,
+  //   base: false,
+  //   darkTheme: false,
+  // },
   theme: {
     extend: {
       fontFamily: {

@@ -20,7 +20,8 @@ export function SectionFooter() {
               <div className="itemsNav">
                 <a href="#">Home</a>
                 <a href="#flow">O Sistema</a>
-                <a href="#client">Encante seus Clientes</a>
+                <a href="#client">Seus Clientes</a>
+                <a href="#prices">Preços</a>
                 <a href="#questions">Saiba Mais</a>
               </div>
               <div className="navIcons">
@@ -48,8 +49,13 @@ export function SectionFooter() {
             <hr className="divider" />
             <div className="policyContent">
               <div>
-                <span>Política de privadidade</span>
-                <span>Termos de uso</span>
+                <a href="/PrivacyPolicy">
+                  {' '}
+                  <span>Política de privadidade</span>
+                </a>
+                <a href="/TermsUse">
+                  <span>Termos de uso</span>
+                </a>
               </div>
               <span>©2023. Todos os direitos reservados</span>
               <div className="navIconsMobile">

@@ -10,6 +10,9 @@ import { SectionQuestion } from './components/sectionQuestion/SectionQuestion'
 import { SectionFooter } from './components/sectionFooter/SectionFooter'
 import { SectionClient } from './components/sectionClient/SectionClient'
 import { SectionContact } from './components/sectionContact/SectionContact'
+import { SectionPrices } from './components/sectionPrices/SectionPrices'
+import { SectionGoogle } from './components/sectionGoogle/SectionGoogle'
+import { SectionStatistics } from './components/sectionStatistics/sectionStatistics'
 
 export default function Home() {
   return (
@@ -19,8 +22,11 @@ export default function Home() {
       <SectionHome />
       <SectionFlow />
       <SectionJourney />
+      <SectionGoogle/>
+      <SectionStatistics/>
       <SectionBusiness />
       <SectionClient />
+      <SectionPrices />
       <SectionQuestion />
       <SectionContact />
       <SectionFooter />

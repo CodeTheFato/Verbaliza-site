@@ -1,0 +1,42 @@
+
+
+#statistics header h2 {
+  margin-bottom: 1.5rem;
+  color: var(--title-h2);
+}
+
+#group {
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+}
+
+#group .title {
+  font-size: 1.4rem;
+}
+
+#group label {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 1024px) {
+   #group {
+    gap:10px;
+    height: 250px;
+  }
+
+  #group .title {
+    font-size: 1.5rem;
+  }
+
+  #group label {
+    font-size: 1.4rem;
+  }
+
+  #group {
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+  }
+
+}

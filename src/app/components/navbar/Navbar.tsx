@@ -18,7 +18,7 @@ export default function Navbar() {
     <>
       <nav id="navigation">
         <div className="wrapper">
-          <a className="logo" href="#home">
+          <a className="logo" href="/#home">
             <svg width="208" height="31" viewBox="0 0 208 31" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M19.0248 2.91653L12.8878 17.3386L6.75074 2.91653H0L12.8878 30.5332L25.7756 2.91653H19.0248Z" fill="#F4F4F4" />
               <path d="M34.5978 25.1633C33.869 25.1633 33.1402 25.0482 32.6799 24.7797L43.5732 18.2591C42.154 12.1604 37.4745 10.8947 34.8279 10.8947C28.4224 10.8947 24.5483 15.2673 24.5483 20.7139C24.5483 26.1606 28.4224 30.5332 34.8279 30.5332C37.7813 30.5332 40.3129 29.4592 42.3458 27.503L39.2005 23.3989C38.0882 24.4345 36.4389 25.1633 34.5978 25.1633ZM34.8279 16.2646C35.8251 16.2646 36.5156 16.7632 36.8224 17.2619L30.4553 21.0591C30.0717 18.1824 32.2196 16.2646 34.8279 16.2646Z" fill="#F4F4F4" />
@@ -41,17 +41,17 @@ export default function Navbar() {
           <div className="menu">
             <ul>
               <li>
-                <a className="active" onClick={closeMenu} href="#flow">O Sistema</a>
+                <a className="active" onClick={closeMenu} href="/#flow">O Sistema</a>
               </li>
-              <li><a onClick={closeMenu} href="#client">Encante seus clientes</a></li>
-              <li><a onClick={closeMenu} href="#questions">Saiba mais</a></li>
+              <li><a onClick={closeMenu} href="/#client">Seus Clientes</a></li>
+              <li><a onClick={closeMenu} href="/#prices">Preços</a></li>
+              <li><a onClick={closeMenu} href="/#questions">Saiba mais</a></li>
             </ul>
             <div className='verbalize-content'>
-              <button className='verbalize'>
-                <a onClick={closeMenu} href="#contact" >Verbalize conosco
+            <button className='verbalize'>
+                <a onClick={closeMenu} href="https://verbaliza-app-dev.vercel.app/admin/signin/register"  target="_blank" rel="noreferrer">Experimente Grátis
                 </a>
               </button>
-
               <svg className='hidden md:block' width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1.41 0L0 1.41L4.58 6L0 10.59L1.41 12L7.41 6L1.41 0Z" fill="white" />
               </svg>

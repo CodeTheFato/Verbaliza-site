@@ -1,6 +1,5 @@
 #contact {
   width: 100%;
-  height: 50rem;
   background-color: var( --primary-color);
 }
 
@@ -59,6 +58,51 @@
   margin-left: 0.8rem;
 }
 
+/* button */
+#contact .link-btn a {
+  color: var(--headline);
+  text-decoration: none;
+  text-align: center;
+  display: block; /* important */
+}
+
+#contact .link-btn,
+#contact .first-link {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#contact .link-btn {
+  height: 64px;
+  font: normal normal 700 1em/4em Arial, sans-serif;
+  overflow: hidden;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+#contact .link-btn:hover {
+  background-color: #003d60;
+}
+
+#contact .link-btn a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#contact .first-link {
+  margin-top: 0em;
+}
+
+#contact .link-btn:hover .first-link {
+  margin-top: -4em;
+}
+
+
 @media (min-width: 1024px) {
 #contact .content {
   display: flex;
@@ -71,7 +115,7 @@
 
 #contact {
   width: 100%;
-  height: 33.2rem;
+  height: 40rem;
   background-color: var( --primary-color);
 }
 

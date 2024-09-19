@@ -1,95 +1,95 @@
 .sectionFooter {
-    padding-bottom: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 .footer {
-    width: 100%;
-    color: #818181;
+  width: 100%;
+  color: #818181;
 }
 .icons {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .itemsNav {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .contentNav {
-    margin-top: 7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .itemsNav > a {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .navIcons {
-    display: none;
-    align-items: center;
-    gap: 5.7rem;
+  display: none;
+  align-items: center;
+  gap: 5.7rem;
 }
 
 .navIcons > div {
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 
 .divider {
-    border-color: #818181;
-    margin-block: 2.4rem;
+  border-color: #818181;
+  margin-block: 2.4rem;
 }
 
 .policyContent {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
 }
 
-.policyContent > div:not(.navIconsMobile){
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.policyContent > div:not(.navIconsMobile) {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .navIconsMobile {
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 
-.navIconsMobile > div{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.navIconsMobile > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 @media (min-width: 1024px) {
-    .contentNav {
-        justify-content: space-between;
-    }
-    .itemsNav {
-        gap: 3.2rem;
-    }
-    .itemsNav > a {
-        font-size: 1.6rem;
-    }
-    .navIcons {
-       display: flex
-    }
-    .policyContent {
-        flex-direction: row;
-        font-size: 1.6rem;
-    }
-    .navIconsMobile {
-        display: none;
-    }
+  .contentNav {
+    justify-content: space-between;
+  }
+  .itemsNav {
+    gap: 3.2rem;
+  }
+  .itemsNav > a {
+    font-size: 1.6rem;
+  }
+  .navIcons {
+    display: flex;
+  }
+  .policyContent {
+    flex-direction: row;
+    font-size: 1.6rem;
+  }
+  .navIconsMobile {
+    display: none;
+  }
 }
