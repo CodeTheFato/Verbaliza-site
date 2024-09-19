@@ -10,31 +10,31 @@ export const plansME = [
   {
     name: 'Verbaliza - ME',
     price: '329.8',
-    units: 1,
-    size: SizeTenantEnum.ME,
-  },
-  {
-    name: 'Verbaliza - ME',
-    price: '359.7',
     units: 2,
     size: SizeTenantEnum.ME,
   },
   {
     name: 'Verbaliza - ME',
-    price: '389.6',
+    price: '359.7',
     units: 3,
     size: SizeTenantEnum.ME,
   },
   {
     name: 'Verbaliza - ME',
-    price: '419.5',
+    price: '389.6',
     units: 4,
     size: SizeTenantEnum.ME,
   },
   {
     name: 'Verbaliza - ME',
-    price: '449.4',
+    price: '419.5',
     units: 5,
+    size: SizeTenantEnum.ME,
+  },
+  {
+    name: 'Verbaliza - ME',
+    price: '449.4',
+    units: 6,
     size: SizeTenantEnum.ME,
   },
 ]
@@ -43,31 +43,31 @@ export const plansEPP = [
   {
     name: 'Verbaliza - EPP',
     price: '479.8',
-    units: 1,
-    size: SizeTenantEnum.EPP,
-  },
-  {
-    name: 'Verbaliza - EPP',
-    price: '559.7',
     units: 2,
     size: SizeTenantEnum.EPP,
   },
   {
     name: 'Verbaliza - EPP',
-    price: '639.6',
+    price: '559.7',
     units: 3,
     size: SizeTenantEnum.EPP,
   },
   {
     name: 'Verbaliza - EPP',
-    price: '719.5',
+    price: '639.6',
     units: 4,
     size: SizeTenantEnum.EPP,
   },
   {
     name: 'Verbaliza - EPP',
-    price: '799.4',
+    price: '719.5',
     units: 5,
+    size: SizeTenantEnum.EPP,
+  },
+  {
+    name: 'Verbaliza - EPP',
+    price: '799.4',
+    units: 6,
     size: SizeTenantEnum.EPP,
   },
 ]

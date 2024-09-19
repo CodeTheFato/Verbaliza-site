@@ -48,8 +48,8 @@ const SliderPrices = (props: PlanCardProps) => {
               id="default-range"
               type="range"
               value={selectedPlan?.units}
-              min="1"
-              max={props.plans.length}
+              min="2"
+              max="6"
               onChange={handleChange}
               className="h-2 w-full cursor-pointer appearance-none rounded-lg bg-gray-200 disabled:cursor-not-allowed dark:bg-gray-700"
               style={{ maxWidth: '250px' }}

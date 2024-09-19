@@ -37,7 +37,7 @@
 
 @media (min-width: 1024px) {
  #google h2 {
-    width: 67rem;
+    width: 50rem;
     margin-inline: auto;
     color: var(--title-h2);
   }

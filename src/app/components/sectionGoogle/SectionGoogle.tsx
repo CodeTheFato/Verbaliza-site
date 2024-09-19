@@ -56,7 +56,7 @@ export function SectionGoogle() {
               <div className="flex">
                 <div>
                   <Image
-                    src="/assets/verbaliza-icon.svg"
+                    src="/assets/google-verbaliza-icon.svg"
                     height={64}
                     width={64}
                     alt="flow"
