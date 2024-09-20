@@ -49,7 +49,7 @@ export default function Navbar() {
             </ul>
             <div className='verbalize-content'>
             <button className='verbalize'>
-                <a onClick={closeMenu} href="https://verbaliza-app-dev.vercel.app/admin/signin/register"  target="_blank" rel="noreferrer">Experimente Grátis
+                <a onClick={closeMenu} href={process.env.URL_VERBALIZA} target="_blank" rel="noreferrer">Experimente Grátis
                 </a>
               </button>
               <svg className='hidden md:block' width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
