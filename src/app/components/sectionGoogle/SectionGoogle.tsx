@@ -38,12 +38,12 @@ export function SectionGoogle() {
                   className="hidden md:block"
                   style={{
                     position: 'absolute',
-                    top: '2rem',
+                    top: '-1.5rem',
                     left: '15rem',
                   }}
                   width={400}
                   height={479}
-                  src="/assets/banner/smart-phone-verbaliza.png"
+                  src="/assets/google/smart-phone-verbaliza-step1.png"
                   alt="Aplicativo Verbaliza"
                 />
               </div>
