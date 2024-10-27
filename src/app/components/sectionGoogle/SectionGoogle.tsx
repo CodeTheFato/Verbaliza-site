@@ -28,6 +28,7 @@ export function SectionGoogle() {
                     width={64}
                     alt="flow"
                   />
+                  <div></div>
                   <h3>Clientes respondem à pesquisa</h3>
                   <p>
                     Somente aqueles com experiências positivas são direcionados
@@ -43,7 +44,7 @@ export function SectionGoogle() {
                   }}
                   width={400}
                   height={479}
-                  src="/assets/google/smart-phone-verbaliza-step1.png"
+                  src="/assets/google/phone-verbaliza-step1.png"
                   alt="Aplicativo Verbaliza"
                 />
               </div>
@@ -71,12 +72,12 @@ export function SectionGoogle() {
                   className="hidden md:block"
                   style={{
                     position: 'absolute',
-                    bottom: '-10rem',
+                    bottom: '-5rem',
                     left: '15rem',
                   }}
                   width={400}
                   height={479}
-                  src="/assets/google/review1.png"
+                  src="/assets/google/celular-reviews.png"
                   alt="Aplicativo Verbaliza"
                 />
               </div>

@@ -27,10 +27,10 @@ export function SectionContact() {
           </div>
           <div className="verbalize-contact">
             <h1 className="font-bold">Verbalize Conosco</h1>
-            <h1>Ligue para (11) 98778-9871</h1>
+            <h1>Ligue para (11) 97291-8757</h1>
             <h1>ou</h1>
             <Link
-              href="https://wa.me/5511987789871"
+              href="https://wa.me/5511972918757"
               target="_blank"
               rel="noreferrer"
             >

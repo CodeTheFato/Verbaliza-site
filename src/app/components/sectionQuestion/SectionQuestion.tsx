@@ -87,7 +87,7 @@ const questions: questionType[] = [
         <li>
           - É um sistema “faça você mesmo”, sem necessidade de programações e
           integrações de sistemas complexas. Em caso de dúvidas, temos suporte
-          disponível pelo Whats App 11 98778 9871.
+          disponível pelo Whats App 11 97291-8757.
         </li>
       </ul>
     ),
