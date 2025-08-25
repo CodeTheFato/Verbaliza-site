@@ -11,7 +11,7 @@ export default function Navbar() {
   }
 
   function login() {
-    window.open(process.env.URL_VERBALIZA, "_blank")
+    window.open(process.env.NEXT_PUBLIC_URL_VERBALIZA_LOGIN, "_blank")
     closeMenu()
   }
   return (
@@ -48,8 +48,8 @@ export default function Navbar() {
               <li><a onClick={closeMenu} href="/#questions">Saiba mais</a></li>
             </ul>
             <div className='verbalize-content'>
-            <button className='verbalize'>
-                <a onClick={closeMenu} href={process.env.URL_VERBALIZA} target="_blank" rel="noreferrer">Experimente Grátis
+              <button className='verbalize'>
+                <a onClick={closeMenu} href={process.env.NEXT_PUBLIC_URL_VERBALIZA} target="_blank" rel="noreferrer">Experimente Grátis
                 </a>
               </button>
               <svg className='hidden md:block' width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
